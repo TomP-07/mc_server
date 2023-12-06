@@ -11,6 +11,9 @@ services:
       EULA: "TRUE"
       ONLINE_MODE: "FALSE"
       MEMORY: "4G"
+      VERSION: "1.20.1w"
+      TYPE: "CUSTOM"
+      CUSTOM_SERVER: "/data/versions/spigot-1.20.1.jar"
     volumes:
       # attach the relative directory 'data' to the container's /data path
       - ./data:/data
