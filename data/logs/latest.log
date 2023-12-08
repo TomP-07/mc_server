@@ -1,354 +1,355 @@
-[22:00:53] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[22:00:54] [ServerMain/INFO]: Loaded 7 recipes
-[22:00:54] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[22:00:54] [Server thread/INFO]: Loading properties
-[22:00:55] [Server thread/INFO]: This server is running CraftBukkit version 3871-Spigot-d2eba2c-3f9263b (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT)
-[22:00:55] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[22:00:55] [Server thread/INFO]: Using 4 threads for Netty based IO
-[22:00:55] [Server thread/INFO]: Debug logging is disabled
-[22:00:55] [Server thread/INFO]: Default game type: SURVIVAL
-[22:00:55] [Server thread/INFO]: Generating keypair
-[22:00:55] [Server thread/INFO]: Starting Minecraft server on *:25565
-[22:00:55] [Server thread/INFO]: Using epoll channel type
-[22:00:55] [Server thread/INFO]: [TreeFeller] Loading TreeFeller v1.22.2
-[22:00:55] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[22:00:55] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[22:00:55] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[22:00:55] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[22:00:55] [Server thread/INFO]: Preparing level "world"
-[22:00:55] [Server thread/INFO]: -------- World Settings For [world] --------
-[22:00:55] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[22:00:55] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
-[22:00:55] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[22:00:55] [Server thread/INFO]: Experience Merge Radius: 3.0
-[22:00:55] [Server thread/INFO]: Mob Spawn Range: 6
-[22:00:55] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[22:00:55] [Server thread/INFO]: Cane Growth Modifier: 100%
-[22:00:55] [Server thread/INFO]: Melon Growth Modifier: 100%
-[22:00:55] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[22:00:55] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[22:00:55] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[22:00:55] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[22:00:55] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[22:00:55] [Server thread/INFO]: Potato Growth Modifier: 100%
-[22:00:55] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[22:00:55] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[22:00:55] [Server thread/INFO]: Vine Growth Modifier: 100%
-[22:00:55] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[22:00:55] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[22:00:55] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[22:00:55] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[22:00:55] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
-[22:00:55] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
-[22:00:55] [Server thread/INFO]: CaveVines Growth Modifier: 100%
-[22:00:55] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[22:00:55] [Server thread/INFO]: Max TNT Explosions: 100
-[22:00:55] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[22:00:55] [Server thread/INFO]: View Distance: 32
-[22:00:55] [Server thread/INFO]: Simulation Distance: 10
-[22:00:55] [Server thread/INFO]: Item Despawn Rate: 6000
-[22:00:55] [Server thread/INFO]: Item Merge Radius: 2.5
-[22:00:55] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[22:00:55] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[22:00:55] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[22:00:55] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[22:00:55] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[22:00:55] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[22:00:55] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
-[22:00:55] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[22:00:55] [Server thread/INFO]: Experience Merge Radius: 3.0
-[22:00:55] [Server thread/INFO]: Mob Spawn Range: 6
-[22:00:55] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[22:00:55] [Server thread/INFO]: Cane Growth Modifier: 100%
-[22:00:55] [Server thread/INFO]: Melon Growth Modifier: 100%
-[22:00:55] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[22:00:55] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[22:00:55] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[22:00:55] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[22:00:55] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[22:00:55] [Server thread/INFO]: Potato Growth Modifier: 100%
-[22:00:55] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[22:00:55] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[22:00:55] [Server thread/INFO]: Vine Growth Modifier: 100%
-[22:00:55] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[22:00:55] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[22:00:55] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[22:00:55] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[22:00:55] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
-[22:00:55] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
-[22:00:55] [Server thread/INFO]: CaveVines Growth Modifier: 100%
-[22:00:55] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[22:00:55] [Server thread/INFO]: Max TNT Explosions: 100
-[22:00:55] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[22:00:55] [Server thread/INFO]: View Distance: 32
-[22:00:55] [Server thread/INFO]: Simulation Distance: 10
-[22:00:55] [Server thread/INFO]: Item Despawn Rate: 6000
-[22:00:55] [Server thread/INFO]: Item Merge Radius: 2.5
-[22:00:55] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[22:00:55] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[22:00:55] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[22:00:55] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[22:00:56] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[22:00:56] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[22:00:56] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
-[22:00:56] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[22:00:56] [Server thread/INFO]: Experience Merge Radius: 3.0
-[22:00:56] [Server thread/INFO]: Mob Spawn Range: 6
-[22:00:56] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[22:00:56] [Server thread/INFO]: Cane Growth Modifier: 100%
-[22:00:56] [Server thread/INFO]: Melon Growth Modifier: 100%
-[22:00:56] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[22:00:56] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[22:00:56] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[22:00:56] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[22:00:56] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[22:00:56] [Server thread/INFO]: Potato Growth Modifier: 100%
-[22:00:56] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[22:00:56] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[22:00:56] [Server thread/INFO]: Vine Growth Modifier: 100%
-[22:00:56] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[22:00:56] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[22:00:56] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[22:00:56] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[22:00:56] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
-[22:00:56] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
-[22:00:56] [Server thread/INFO]: CaveVines Growth Modifier: 100%
-[22:00:56] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[22:00:56] [Server thread/INFO]: Max TNT Explosions: 100
-[22:00:56] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[22:00:56] [Server thread/INFO]: View Distance: 32
-[22:00:56] [Server thread/INFO]: Simulation Distance: 10
-[22:00:56] [Server thread/INFO]: Item Despawn Rate: 6000
-[22:00:56] [Server thread/INFO]: Item Merge Radius: 2.5
-[22:00:56] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[22:00:56] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[22:00:56] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[22:00:56] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[22:00:56] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[22:00:58] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[22:00:58] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[22:00:58] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[22:00:58] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[22:00:58] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[22:00:59] [Worker-Main-6/INFO]: Preparing spawn area: 30%
-[22:00:59] [Server thread/INFO]: Time elapsed: 2738 ms
-[22:00:59] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[22:01:00] [Worker-Main-7/INFO]: Preparing spawn area: 0%
-[22:01:00] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[22:01:00] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[22:01:01] [Worker-Main-1/INFO]: Preparing spawn area: 42%
-[22:01:01] [Server thread/INFO]: Time elapsed: 1698 ms
-[22:01:01] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[22:01:01] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[22:01:01] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[22:01:02] [Worker-Main-3/INFO]: Preparing spawn area: 27%
-[22:01:02] [Server thread/INFO]: Time elapsed: 1210 ms
-[22:01:02] [Server thread/INFO]: [TreeFeller] Enabling TreeFeller v1.22.2
-[22:01:02] [Server thread/INFO]: [TreeFeller] TreeFeller has been enabled! (Version 1.22.2) by ThizThizzyDizzy
-[22:01:02] [Server thread/INFO]: [TreeFeller] Server version: 1_20_R1
-[22:01:02] [Server thread/INFO]: [TreeFeller] Loaded global values:
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Startup Logs: true
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Default Enabled: true
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Scan Distance: 256
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Leaf Detect Range: 6
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Leaf Break Range: 6
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Required Logs: 4
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Required Leaves: 10
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Max Logs: 250
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Max Height: 5
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Allow Partial: false
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Allow Partial Tool: false
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Player Leaves: false
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Diagonal Leaves: false
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Ignore Leaf Data: false
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Require Cross Section: false
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Force Distance Check: false
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Decorations: [snow, vines, cocoa, weeping vines, moss]
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Max Horizontal Trunk Pillar Length: 6
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Max Trunks: 1
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Cutting Animation: false
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Anim Delay: 1
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Replant Saplings: false
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Use Inventory Saplings: false
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Spawn Saplings: 0
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Sapling Timeout: 50
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Grass: [DIRT, GRASS_BLOCK, PODZOL]
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Root Distance: 6
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Log Behavior: BREAK
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Leaf Behavior: BREAK
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Fall Hurt Amount: 2.0
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Fall Hurt Max: 40
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Directional Fall Behavior: RANDOM
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Overridables: [LARGE_FERN, TALL_SEAGRASS, WATER, GRASS, SEAGRASS, AIR, CAVE_AIR, FERN, TALL_GRASS]
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Lock Fall Cardinal: false
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Directional Fall Velocity: 0.35
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Vertical Fall Velocity: 0.05
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Explosive Fall Velocity: 0.0
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Random Fall Velocity: 0.0
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Fall Delay: 0
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Respect Unbreaking: true
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Respect Unbreakable: true
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Damage Mult: 1.0
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Stacked Tools: false
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Leaf Fortune: true
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Leaf Silk Touch: false
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Log Fortune: true
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Log Silk Touch: true
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Leave Stump: false
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Rotate Logs: true
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Drop Conversions: {CRIMSON_HYPHAE=CRIMSON_STEM, BIRCH_WOOD=BIRCH_LOG, JUNGLE_WOOD=JUNGLE_LOG, ACACIA_WOOD=ACACIA_LOG, DARK_OAK_WOOD=DARK_OAK_LOG, OAK_WOOD=OAK_LOG, WARPED_HYPHAE=WARPED_STEM, SPRUCE_WOOD=SPRUCE_LOG}
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Leaf Drop Chance: 1.0
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Log Drop Chance: 1.0
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Effects: []
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Consumed Food Base: 0.0
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Consumed Food Logs: 0.0
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Consumed Food Leaves: 0.0
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Consumed Health Base: 0.0
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Consumed Health Logs: 0.0
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Consumed Health Leaves: 0.0
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Prevent Breakage: false
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Enable Adventure: false
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Enable Survival: true
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Enable Creative: false
-[22:01:02] [Server thread/INFO]: [TreeFeller] - With Sneak: false
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Without Sneak: true
-[22:01:02] [Server thread/INFO]: [TreeFeller] - World Blacklist: false
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Cascade: false
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Parallel Cascade Limit: 1
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Cascade Check Limit: 64
-[22:01:02] [Server thread/INFO]: [TreeFeller] - MMOCore Trunk XP: {woodcutting=1.0}
-[22:01:02] [Server thread/INFO]: [TreeFeller] - MMOCore Leaves XP: {woodcutting=0.0}
-[22:01:02] [Server thread/INFO]: [TreeFeller] - MMOCore Tree XP: {woodcutting=0.0}
-[22:01:02] [Server thread/INFO]: [TreeFeller] - MMOCore Emulate Regen: false
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Compatibility MMOCore: true
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Compatibility Jobs: true
-[22:01:02] [Server thread/INFO]: [TreeFeller] - MCMMO Double Drops: true
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Compatibility mcMMO: true
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Compatibility mcMMO Classic: true
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Compatibility CoreProtect: true
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Compatibility WorldGuard: true
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Compatibility GriefPrevention: true
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Compatibility Towny: true
-[22:01:02] [Server thread/INFO]: [TreeFeller] - OreRegenerator Regen Delay: 1200
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Compatibility OreRegenerator: false
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Compatibility Drop2Inventory: true
-[22:01:02] [Server thread/INFO]: [TreeFeller] - EcoSkills Trunk XP: {Woodcutting=1.0}
-[22:01:02] [Server thread/INFO]: [TreeFeller] - EcoSkills Leaves XP: {woodcutting=0.0}
-[22:01:02] [Server thread/INFO]: [TreeFeller] - EcoSkills Tree XP: {woodcutting=0.0}
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Compatibility EcoSkills: true
-[22:01:02] [Server thread/INFO]: [TreeFeller] - EcoJobs Apply Multipliers: true
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Compatibility EcoJobs: true
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Compatibility LogBlock Legacy: false
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Compatibility LogBlock: true
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Compatibility Lands: true
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Compatibility PlaceholderAPI: true
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Compatibility SaberFactions: true
-[22:01:02] [Server thread/INFO]: [TreeFeller] - AureliumSkills Trunk XP: {foraging=1.0}
-[22:01:02] [Server thread/INFO]: [TreeFeller] - AureliumSkills Leaves XP: {foraging=0.0}
-[22:01:02] [Server thread/INFO]: [TreeFeller] - AureliumSkills Apply Modifiers: true
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Compatibility AureliumSkills: true
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Compatibility BlockRegen: false
-[22:01:02] [Server thread/INFO]: [TreeFeller] Loaded Tree!
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Trunk: OAK_LOG, OAK_WOOD
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Leaves: OAK_LEAVES
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Sapling: [OAK_SAPLING]
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
-[22:01:02] [Server thread/INFO]: [TreeFeller] Loaded Tree!
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Trunk: BIRCH_LOG, BIRCH_WOOD
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Leaves: BIRCH_LEAVES
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Sapling: [BIRCH_SAPLING]
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
-[22:01:02] [Server thread/INFO]: [TreeFeller] Loaded Tree!
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Trunk: SPRUCE_LOG, SPRUCE_WOOD
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Leaves: SPRUCE_LEAVES
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Sapling: [SPRUCE_SAPLING]
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Max Saplings: 4
-[22:01:02] [Server thread/INFO]: [TreeFeller] Loaded Tree!
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Trunk: JUNGLE_LOG, JUNGLE_WOOD
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Leaves: JUNGLE_LEAVES
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Sapling: [JUNGLE_SAPLING]
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Max Saplings: 4
-[22:01:02] [Server thread/INFO]: [TreeFeller] Loaded Tree!
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Trunk: DARK_OAK_LOG, DARK_OAK_WOOD
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Leaves: DARK_OAK_LEAVES
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Sapling: [DARK_OAK_SAPLING]
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Max Saplings: 4
-[22:01:02] [Server thread/INFO]: [TreeFeller] Loaded Tree!
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Trunk: ACACIA_LOG, ACACIA_WOOD
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Leaves: ACACIA_LEAVES
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Sapling: [ACACIA_SAPLING]
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
-[22:01:02] [Server thread/INFO]: [TreeFeller] Loaded Tree!
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Trunk: OAK_LOG, OAK_WOOD
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Leaves: AZALEA_LEAVES, FLOWERING_AZALEA_LEAVES
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Diagonal Leaves: true
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Sapling: [AZALEA, FLOWERING_AZALEA]
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
-[22:01:02] [Server thread/INFO]: [TreeFeller] Loaded Tree!
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Trunk: MANGROVE_LOG, MANGROVE_WOOD
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Leaves: MANGROVE_ROOTS, MANGROVE_LEAVES
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Leaf Detect Range: 16
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Leaf Break Range: 16
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Required Logs: 3
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Diagonal Leaves: true
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Max Horizontal Trunk Pillar Length: 16
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Max Trunks: 16
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Sapling: [MANGROVE_PROPAGULE]
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Roots: [MANGROVE_ROOTS]
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Root Distance: 16
-[22:01:02] [Server thread/INFO]: [TreeFeller] Loaded Tree!
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Trunk: CHERRY_LOG, CHERRY_WOOD
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Leaves: CHERRY_LEAVES
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Sapling: [CHERRY_SAPLING]
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
-[22:01:02] [Server thread/INFO]: [TreeFeller] Loaded Tree!
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Trunk: CRIMSON_STEM, CRIMSON_HYPHAE
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Leaves: NETHER_WART_BLOCK, SHROOMLIGHT
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Leaf Detect Range: 8
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Leaf Break Range: 8
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Diagonal Leaves: true
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Sapling: [CRIMSON_FUNGUS]
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Grass: [CRIMSON_NYLIUM]
-[22:01:02] [Server thread/INFO]: [TreeFeller] Loaded Tree!
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Trunk: WARPED_STEM, WARPED_HYPHAE
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Leaves: WARPED_WART_BLOCK, SHROOMLIGHT
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Leaf Detect Range: 8
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Leaf Break Range: 8
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Diagonal Leaves: true
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Sapling: [WARPED_FUNGUS]
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
-[22:01:02] [Server thread/INFO]: [TreeFeller] - Grass: [WARPED_NYLIUM]
-[22:01:02] [Server thread/INFO]: [TreeFeller] Loaded tool: WOODEN_AXE
-[22:01:02] [Server thread/INFO]: [TreeFeller] Loaded tool: STONE_AXE
-[22:01:02] [Server thread/INFO]: [TreeFeller] Loaded tool: IRON_AXE
-[22:01:02] [Server thread/INFO]: [TreeFeller] Loaded tool: GOLDEN_AXE
-[22:01:02] [Server thread/INFO]: [TreeFeller] Loaded tool: DIAMOND_AXE
-[22:01:02] [Server thread/INFO]: [TreeFeller] Loaded tool: NETHERITE_AXE
-[22:01:02] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[22:01:02] [Server thread/INFO]: Done (7.161s)! For help, type "help"
-[22:01:02] [Server thread/INFO]: Starting remote control listener
-[22:01:02] [Server thread/INFO]: Thread RCON Listener started
-[22:01:02] [Server thread/INFO]: RCON running on 0.0.0.0:25575
-[22:02:36] [User Authenticator #1/INFO]: UUID of player ebner is 214e86b8-4ad6-3f36-9172-cc7525d637e2
-[22:02:36] [Server thread/INFO]: ebner joined the game
-[22:02:36] [Server thread/INFO]: ebner[/172.19.0.1:37442] logged in with entity id 87 at ([world]2346.300000011921, -17.0, -1083.514500768714)
-[22:53:34] [Server thread/INFO]: ebner lost connection: Disconnected
-[22:53:34] [Server thread/INFO]: ebner left the game
-[22:53:39] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
-[22:53:39] [Server thread/INFO]: [Rcon: Stopping the server]
-[22:53:39] [RCON Client /127.0.0.1 #2/INFO]: Thread RCON Client /127.0.0.1 shutting down
-[22:53:39] [Server thread/INFO]: Stopping server
-[22:53:39] [Server thread/INFO]: [TreeFeller] Disabling TreeFeller v1.22.2
-[22:53:39] [Server thread/INFO]: [TreeFeller] TreeFeller has been disabled! (Version 1.22.2) by ThizThizzyDizzy
-[22:53:39] [Server thread/INFO]: Saving players
-[22:53:39] [Server thread/INFO]: Saving worlds
-[22:53:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[22:53:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[22:53:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[22:53:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[22:53:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[22:53:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[22:53:45] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[22:53:45] [Server thread/INFO]: Thread RCON Listener stopped
+[02:32:14] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[02:32:15] [ServerMain/INFO]: Loaded 7 recipes
+[02:32:16] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[02:32:16] [Server thread/INFO]: Loading properties
+[02:32:16] [Server thread/INFO]: This server is running CraftBukkit version 3871-Spigot-d2eba2c-3f9263b (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT)
+[02:32:16] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[02:32:16] [Server thread/INFO]: Using 4 threads for Netty based IO
+[02:32:16] [Server thread/INFO]: Debug logging is disabled
+[02:32:16] [Server thread/INFO]: Default game type: SURVIVAL
+[02:32:16] [Server thread/INFO]: Generating keypair
+[02:32:16] [Server thread/INFO]: Starting Minecraft server on *:25565
+[02:32:16] [Server thread/INFO]: Using epoll channel type
+[02:32:16] [Server thread/INFO]: [TreeFeller] Loading TreeFeller v1.22.2
+[02:32:16] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[02:32:16] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[02:32:16] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[02:32:16] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[02:32:16] [Server thread/INFO]: Preparing level "world"
+[02:32:16] [Server thread/INFO]: -------- World Settings For [world] --------
+[02:32:16] [Server thread/INFO]: View Distance: 32
+[02:32:16] [Server thread/INFO]: Simulation Distance: 10
+[02:32:16] [Server thread/INFO]: Item Despawn Rate: 6000
+[02:32:16] [Server thread/INFO]: Item Merge Radius: 2.5
+[02:32:16] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[02:32:16] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[02:32:16] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[02:32:16] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[02:32:16] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[02:32:16] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[02:32:16] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[02:32:16] [Server thread/INFO]: Experience Merge Radius: 3.0
+[02:32:16] [Server thread/INFO]: Mob Spawn Range: 6
+[02:32:16] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[02:32:16] [Server thread/INFO]: Cane Growth Modifier: 100%
+[02:32:16] [Server thread/INFO]: Melon Growth Modifier: 100%
+[02:32:16] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[02:32:16] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[02:32:16] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[02:32:16] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[02:32:16] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[02:32:16] [Server thread/INFO]: Potato Growth Modifier: 100%
+[02:32:16] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[02:32:16] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[02:32:16] [Server thread/INFO]: Vine Growth Modifier: 100%
+[02:32:16] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[02:32:16] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[02:32:16] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[02:32:16] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[02:32:16] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[02:32:16] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[02:32:16] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[02:32:16] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[02:32:16] [Server thread/INFO]: Max TNT Explosions: 100
+[02:32:16] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[02:32:16] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[02:32:16] [Server thread/INFO]: View Distance: 32
+[02:32:16] [Server thread/INFO]: Simulation Distance: 10
+[02:32:16] [Server thread/INFO]: Item Despawn Rate: 6000
+[02:32:16] [Server thread/INFO]: Item Merge Radius: 2.5
+[02:32:16] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[02:32:16] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[02:32:16] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[02:32:16] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[02:32:16] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[02:32:16] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[02:32:16] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[02:32:16] [Server thread/INFO]: Experience Merge Radius: 3.0
+[02:32:16] [Server thread/INFO]: Mob Spawn Range: 6
+[02:32:16] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[02:32:16] [Server thread/INFO]: Cane Growth Modifier: 100%
+[02:32:16] [Server thread/INFO]: Melon Growth Modifier: 100%
+[02:32:16] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[02:32:16] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[02:32:16] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[02:32:16] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[02:32:16] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[02:32:16] [Server thread/INFO]: Potato Growth Modifier: 100%
+[02:32:16] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[02:32:16] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[02:32:16] [Server thread/INFO]: Vine Growth Modifier: 100%
+[02:32:16] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[02:32:16] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[02:32:16] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[02:32:16] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[02:32:16] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[02:32:16] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[02:32:16] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[02:32:16] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[02:32:16] [Server thread/INFO]: Max TNT Explosions: 100
+[02:32:16] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[02:32:17] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[02:32:17] [Server thread/INFO]: View Distance: 32
+[02:32:17] [Server thread/INFO]: Simulation Distance: 10
+[02:32:17] [Server thread/INFO]: Item Despawn Rate: 6000
+[02:32:17] [Server thread/INFO]: Item Merge Radius: 2.5
+[02:32:17] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[02:32:17] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[02:32:17] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[02:32:17] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[02:32:17] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[02:32:17] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[02:32:17] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[02:32:17] [Server thread/INFO]: Experience Merge Radius: 3.0
+[02:32:17] [Server thread/INFO]: Mob Spawn Range: 6
+[02:32:17] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[02:32:17] [Server thread/INFO]: Cane Growth Modifier: 100%
+[02:32:17] [Server thread/INFO]: Melon Growth Modifier: 100%
+[02:32:17] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[02:32:17] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[02:32:17] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[02:32:17] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[02:32:17] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[02:32:17] [Server thread/INFO]: Potato Growth Modifier: 100%
+[02:32:17] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[02:32:17] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[02:32:17] [Server thread/INFO]: Vine Growth Modifier: 100%
+[02:32:17] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[02:32:17] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[02:32:17] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[02:32:17] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[02:32:17] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[02:32:17] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[02:32:17] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[02:32:17] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[02:32:17] [Server thread/INFO]: Max TNT Explosions: 100
+[02:32:17] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[02:32:17] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[02:32:19] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[02:32:19] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[02:32:19] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[02:32:19] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[02:32:19] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[02:32:20] [Worker-Main-5/INFO]: Preparing spawn area: 79%
+[02:32:20] [Server thread/INFO]: Time elapsed: 2583 ms
+[02:32:20] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[02:32:21] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[02:32:21] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[02:32:21] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[02:32:22] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[02:32:22] [Server thread/INFO]: Time elapsed: 1879 ms
+[02:32:22] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[02:32:23] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[02:32:23] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[02:32:23] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[02:32:23] [Server thread/INFO]: Time elapsed: 1408 ms
+[02:32:23] [Server thread/INFO]: [TreeFeller] Enabling TreeFeller v1.22.2
+[02:32:23] [Server thread/INFO]: [TreeFeller] TreeFeller has been enabled! (Version 1.22.2) by ThizThizzyDizzy
+[02:32:23] [Server thread/INFO]: [TreeFeller] Server version: 1_20_R1
+[02:32:23] [Server thread/INFO]: [TreeFeller] Loaded global values:
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Startup Logs: true
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Default Enabled: true
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Scan Distance: 256
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Leaf Detect Range: 6
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Leaf Break Range: 6
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Required Logs: 4
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Required Leaves: 10
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Max Logs: 250
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Max Height: 5
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Allow Partial: false
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Allow Partial Tool: false
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Player Leaves: false
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Diagonal Leaves: false
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Ignore Leaf Data: false
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Require Cross Section: false
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Force Distance Check: false
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Decorations: [snow, vines, cocoa, weeping vines, moss]
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Max Horizontal Trunk Pillar Length: 6
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Max Trunks: 1
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Cutting Animation: false
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Anim Delay: 1
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Replant Saplings: false
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Use Inventory Saplings: false
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Spawn Saplings: 0
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Sapling Timeout: 50
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Grass: [DIRT, PODZOL, GRASS_BLOCK]
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Root Distance: 6
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Log Behavior: BREAK
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Leaf Behavior: BREAK
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Fall Hurt Amount: 2.0
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Fall Hurt Max: 40
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Directional Fall Behavior: RANDOM
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Overridables: [TALL_SEAGRASS, WATER, CAVE_AIR, FERN, TALL_GRASS, AIR, GRASS, LARGE_FERN, SEAGRASS]
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Lock Fall Cardinal: false
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Directional Fall Velocity: 0.35
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Vertical Fall Velocity: 0.05
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Explosive Fall Velocity: 0.0
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Random Fall Velocity: 0.0
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Fall Delay: 0
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Respect Unbreaking: true
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Respect Unbreakable: true
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Damage Mult: 1.0
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Stacked Tools: false
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Leaf Fortune: true
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Leaf Silk Touch: false
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Log Fortune: true
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Log Silk Touch: true
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Leave Stump: false
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Rotate Logs: true
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Drop Conversions: {JUNGLE_WOOD=JUNGLE_LOG, SPRUCE_WOOD=SPRUCE_LOG, BIRCH_WOOD=BIRCH_LOG, ACACIA_WOOD=ACACIA_LOG, WARPED_HYPHAE=WARPED_STEM, CRIMSON_HYPHAE=CRIMSON_STEM, DARK_OAK_WOOD=DARK_OAK_LOG, OAK_WOOD=OAK_LOG}
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Leaf Drop Chance: 1.0
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Log Drop Chance: 1.0
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Effects: []
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Consumed Food Base: 0.0
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Consumed Food Logs: 0.0
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Consumed Food Leaves: 0.0
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Consumed Health Base: 0.0
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Consumed Health Logs: 0.0
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Consumed Health Leaves: 0.0
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Prevent Breakage: false
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Enable Adventure: false
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Enable Survival: true
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Enable Creative: false
+[02:32:23] [Server thread/INFO]: [TreeFeller] - With Sneak: false
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Without Sneak: true
+[02:32:23] [Server thread/INFO]: [TreeFeller] - World Blacklist: false
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Cascade: false
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Parallel Cascade Limit: 1
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Cascade Check Limit: 64
+[02:32:23] [Server thread/INFO]: [TreeFeller] - MMOCore Trunk XP: {woodcutting=1.0}
+[02:32:23] [Server thread/INFO]: [TreeFeller] - MMOCore Leaves XP: {woodcutting=0.0}
+[02:32:23] [Server thread/INFO]: [TreeFeller] - MMOCore Tree XP: {woodcutting=0.0}
+[02:32:23] [Server thread/INFO]: [TreeFeller] - MMOCore Emulate Regen: false
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Compatibility MMOCore: true
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Compatibility Jobs: true
+[02:32:23] [Server thread/INFO]: [TreeFeller] - MCMMO Double Drops: true
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Compatibility mcMMO: true
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Compatibility mcMMO Classic: true
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Compatibility CoreProtect: true
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Compatibility WorldGuard: true
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Compatibility GriefPrevention: true
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Compatibility Towny: true
+[02:32:23] [Server thread/INFO]: [TreeFeller] - OreRegenerator Regen Delay: 1200
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Compatibility OreRegenerator: false
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Compatibility Drop2Inventory: true
+[02:32:23] [Server thread/INFO]: [TreeFeller] - EcoSkills Trunk XP: {Woodcutting=1.0}
+[02:32:23] [Server thread/INFO]: [TreeFeller] - EcoSkills Leaves XP: {woodcutting=0.0}
+[02:32:23] [Server thread/INFO]: [TreeFeller] - EcoSkills Tree XP: {woodcutting=0.0}
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Compatibility EcoSkills: true
+[02:32:23] [Server thread/INFO]: [TreeFeller] - EcoJobs Apply Multipliers: true
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Compatibility EcoJobs: true
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Compatibility LogBlock Legacy: false
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Compatibility LogBlock: true
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Compatibility Lands: true
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Compatibility PlaceholderAPI: true
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Compatibility SaberFactions: true
+[02:32:23] [Server thread/INFO]: [TreeFeller] - AureliumSkills Trunk XP: {foraging=1.0}
+[02:32:23] [Server thread/INFO]: [TreeFeller] - AureliumSkills Leaves XP: {foraging=0.0}
+[02:32:23] [Server thread/INFO]: [TreeFeller] - AureliumSkills Apply Modifiers: true
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Compatibility AureliumSkills: true
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Compatibility BlockRegen: false
+[02:32:23] [Server thread/INFO]: [TreeFeller] Loaded Tree!
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Trunk: OAK_LOG, OAK_WOOD
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Leaves: OAK_LEAVES
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Sapling: [OAK_SAPLING]
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
+[02:32:23] [Server thread/INFO]: [TreeFeller] Loaded Tree!
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Trunk: BIRCH_LOG, BIRCH_WOOD
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Leaves: BIRCH_LEAVES
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Sapling: [BIRCH_SAPLING]
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
+[02:32:23] [Server thread/INFO]: [TreeFeller] Loaded Tree!
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Trunk: SPRUCE_LOG, SPRUCE_WOOD
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Leaves: SPRUCE_LEAVES
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Sapling: [SPRUCE_SAPLING]
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Max Saplings: 4
+[02:32:23] [Server thread/INFO]: [TreeFeller] Loaded Tree!
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Trunk: JUNGLE_LOG, JUNGLE_WOOD
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Leaves: JUNGLE_LEAVES
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Sapling: [JUNGLE_SAPLING]
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Max Saplings: 4
+[02:32:23] [Server thread/INFO]: [TreeFeller] Loaded Tree!
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Trunk: DARK_OAK_LOG, DARK_OAK_WOOD
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Leaves: DARK_OAK_LEAVES
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Sapling: [DARK_OAK_SAPLING]
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Max Saplings: 4
+[02:32:23] [Server thread/INFO]: [TreeFeller] Loaded Tree!
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Trunk: ACACIA_LOG, ACACIA_WOOD
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Leaves: ACACIA_LEAVES
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Sapling: [ACACIA_SAPLING]
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
+[02:32:23] [Server thread/INFO]: [TreeFeller] Loaded Tree!
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Trunk: OAK_LOG, OAK_WOOD
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Leaves: AZALEA_LEAVES, FLOWERING_AZALEA_LEAVES
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Diagonal Leaves: true
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Sapling: [FLOWERING_AZALEA, AZALEA]
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
+[02:32:23] [Server thread/INFO]: [TreeFeller] Loaded Tree!
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Trunk: MANGROVE_LOG, MANGROVE_WOOD
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Leaves: MANGROVE_ROOTS, MANGROVE_LEAVES
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Leaf Detect Range: 16
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Leaf Break Range: 16
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Required Logs: 3
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Diagonal Leaves: true
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Max Horizontal Trunk Pillar Length: 16
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Max Trunks: 16
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Sapling: [MANGROVE_PROPAGULE]
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Roots: [MANGROVE_ROOTS]
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Root Distance: 16
+[02:32:23] [Server thread/INFO]: [TreeFeller] Loaded Tree!
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Trunk: CHERRY_LOG, CHERRY_WOOD
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Leaves: CHERRY_LEAVES
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Sapling: [CHERRY_SAPLING]
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
+[02:32:23] [Server thread/INFO]: [TreeFeller] Loaded Tree!
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Trunk: CRIMSON_STEM, CRIMSON_HYPHAE
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Leaves: NETHER_WART_BLOCK, SHROOMLIGHT
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Leaf Detect Range: 8
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Leaf Break Range: 8
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Diagonal Leaves: true
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Sapling: [CRIMSON_FUNGUS]
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Grass: [CRIMSON_NYLIUM]
+[02:32:23] [Server thread/INFO]: [TreeFeller] Loaded Tree!
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Trunk: WARPED_STEM, WARPED_HYPHAE
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Leaves: WARPED_WART_BLOCK, SHROOMLIGHT
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Leaf Detect Range: 8
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Leaf Break Range: 8
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Diagonal Leaves: true
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Sapling: [WARPED_FUNGUS]
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
+[02:32:23] [Server thread/INFO]: [TreeFeller] - Grass: [WARPED_NYLIUM]
+[02:32:23] [Server thread/INFO]: [TreeFeller] Loaded tool: WOODEN_AXE
+[02:32:23] [Server thread/INFO]: [TreeFeller] Loaded tool: STONE_AXE
+[02:32:23] [Server thread/INFO]: [TreeFeller] Loaded tool: IRON_AXE
+[02:32:23] [Server thread/INFO]: [TreeFeller] Loaded tool: GOLDEN_AXE
+[02:32:23] [Server thread/INFO]: [TreeFeller] Loaded tool: DIAMOND_AXE
+[02:32:23] [Server thread/INFO]: [TreeFeller] Loaded tool: NETHERITE_AXE
+[02:32:23] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[02:32:23] [Server thread/INFO]: Done (7.365s)! For help, type "help"
+[02:32:23] [Server thread/INFO]: Starting remote control listener
+[02:32:23] [Server thread/INFO]: Thread RCON Listener started
+[02:32:23] [Server thread/INFO]: RCON running on 0.0.0.0:25575
+[02:33:10] [User Authenticator #1/INFO]: UUID of player ebner is 214e86b8-4ad6-3f36-9172-cc7525d637e2
+[02:33:10] [Server thread/INFO]: ebner joined the game
+[02:33:10] [Server thread/INFO]: ebner[/172.19.0.1:59022] logged in with entity id 87 at ([world]2410.699999988079, -17.0, -979.6223357694845)
+[03:16:59] [Server thread/INFO]: ebner has made the advancement [Best Friends Forever]
+[03:19:36] [Server thread/INFO]: ebner lost connection: Disconnected
+[03:19:36] [Server thread/INFO]: ebner left the game
+[03:19:45] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[03:19:45] [Server thread/INFO]: [Rcon: Stopping the server]
+[03:19:45] [RCON Client /127.0.0.1 #2/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[03:19:45] [Server thread/INFO]: Stopping server
+[03:19:45] [Server thread/INFO]: [TreeFeller] Disabling TreeFeller v1.22.2
+[03:19:45] [Server thread/INFO]: [TreeFeller] TreeFeller has been disabled! (Version 1.22.2) by ThizThizzyDizzy
+[03:19:45] [Server thread/INFO]: Saving players
+[03:19:45] [Server thread/INFO]: Saving worlds
+[03:19:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[03:19:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[03:19:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[03:19:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[03:19:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[03:19:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[03:19:48] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[03:19:48] [Server thread/INFO]: Thread RCON Listener stopped
