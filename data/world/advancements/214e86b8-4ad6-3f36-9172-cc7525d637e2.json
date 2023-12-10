@@ -553,6 +553,7 @@
       "suspicious_stew": "2023-12-08 07:09:10 +0000",
       "salmon": "2023-12-06 18:00:57 +0000",
       "beetroot": "2023-12-07 19:01:44 +0000",
+      "golden_carrot": "2023-12-10 18:29:37 +0000",
       "cooked_chicken": "2023-12-06 03:21:08 +0000",
       "cooked_salmon": "2023-12-06 17:49:24 +0000",
       "carrot": "2023-12-06 02:03:56 +0000"
@@ -928,6 +929,7 @@
       "minecraft:hoglin": "2023-12-06 19:54:12 +0000",
       "minecraft:spider": "2023-12-06 01:36:26 +0000",
       "minecraft:creeper": "2023-12-06 05:01:28 +0000",
+      "minecraft:zombified_piglin": "2023-12-10 18:32:56 +0000",
       "minecraft:witch": "2023-12-06 15:47:14 +0000",
       "minecraft:wither_skeleton": "2023-12-08 06:41:55 +0000",
       "minecraft:cave_spider": "2023-12-07 22:07:21 +0000",
@@ -3693,6 +3695,30 @@
   "minecraft:adventure/throw_trident": {
     "criteria": {
       "shot_trident": "2023-12-10 06:00:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/distract_piglin": {
+    "criteria": {
+      "distract_piglin": "2023-12-10 19:35:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot_from_smelting_copper_ore": {
+    "criteria": {
+      "has_copper_ore": "2023-12-10 18:11:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_lamp": {
+    "criteria": {
+      "has_glowstone": "2023-12-10 18:35:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot_from_blasting_copper_ore": {
+    "criteria": {
+      "has_copper_ore": "2023-12-10 18:11:52 +0000"
     },
     "done": true
   },
