@@ -7,6 +7,8 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:snowy_slopes": "2023-12-12 20:03:13 +0000",
+      "minecraft:old_growth_pine_taiga": "2023-12-12 20:15:31 +0000",
       "minecraft:taiga": "2023-12-07 04:42:17 +0000",
       "minecraft:deep_ocean": "2023-12-06 02:17:03 +0000",
       "minecraft:cherry_grove": "2023-12-06 01:22:53 +0000",
@@ -20,6 +22,8 @@
       "minecraft:river": "2023-12-06 01:27:59 +0000",
       "minecraft:stony_shore": "2023-12-06 02:10:15 +0000",
       "minecraft:dripstone_caves": "2023-12-06 01:37:48 +0000",
+      "minecraft:grove": "2023-12-12 20:08:36 +0000",
+      "minecraft:jagged_peaks": "2023-12-12 20:07:16 +0000",
       "minecraft:cold_ocean": "2023-12-07 04:24:20 +0000",
       "minecraft:forest": "2023-12-06 02:04:31 +0000",
       "minecraft:lush_caves": "2023-12-06 03:35:41 +0000",
@@ -27,6 +31,7 @@
       "minecraft:desert": "2023-12-09 01:07:36 +0000",
       "minecraft:ocean": "2023-12-06 02:16:19 +0000",
       "minecraft:flower_forest": "2023-12-06 02:10:43 +0000",
+      "minecraft:frozen_peaks": "2023-12-12 20:14:51 +0000",
       "minecraft:old_growth_birch_forest": "2023-12-06 03:20:51 +0000",
       "minecraft:deep_dark": "2023-12-07 20:09:04 +0000",
       "minecraft:meadow": "2023-12-06 02:02:51 +0000",
@@ -555,6 +560,7 @@
       "beetroot": "2023-12-07 19:01:44 +0000",
       "golden_carrot": "2023-12-10 18:29:37 +0000",
       "cooked_chicken": "2023-12-06 03:21:08 +0000",
+      "enchanted_golden_apple": "2023-12-13 02:20:24 +0000",
       "cooked_salmon": "2023-12-06 17:49:24 +0000",
       "carrot": "2023-12-06 02:03:56 +0000"
     },
@@ -4222,12 +4228,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/popped_chorus_fruit": {
-    "criteria": {
-      "has_chorus_fruit": "2023-12-12 05:28:08 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/redstone/warped_pressure_plate": {
     "criteria": {
       "has_planks": "2023-12-12 05:13:04 +0000"
@@ -4279,6 +4279,132 @@
   "minecraft:recipes/redstone/warped_door": {
     "criteria": {
       "has_planks": "2023-12-12 05:13:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/popped_chorus_fruit": {
+    "criteria": {
+      "has_chorus_fruit": "2023-12-12 05:28:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/magenta_stained_glass_pane": {
+    "criteria": {
+      "has_glass": "2023-12-12 18:08:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/elytra": {
+    "criteria": {
+      "elytra": "2023-12-12 18:13:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/spire_armor_trim_smithing_template": {
+    "criteria": {
+      "has_spire_armor_trim_smithing_template": "2023-12-12 18:13:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/spire_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2023-12-12 18:13:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/brew_potion": {
+    "criteria": {
+      "potion": "2023-12-12 18:18:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blue_ice": {
+    "criteria": {
+      "has_packed_ice": "2023-12-12 20:14:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/packed_ice": {
+    "criteria": {
+      "has_ice": "2023-12-12 20:15:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/snow": {
+    "criteria": {
+      "has_snowball": "2023-12-12 22:08:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/snow_block": {
+    "criteria": {
+      "has_snowball": "2023-12-12 22:08:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/acacia_wood": {
+    "criteria": {
+      "has_log": "2023-12-13 03:28:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/acacia_planks": {
+    "criteria": {
+      "has_log": "2023-12-13 03:28:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/acacia_button": {
+    "criteria": {
+      "has_planks": "2023-12-13 03:33:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/acacia_pressure_plate": {
+    "criteria": {
+      "has_planks": "2023-12-13 03:33:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/acacia_sign": {
+    "criteria": {
+      "has_planks": "2023-12-13 03:33:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/acacia_slab": {
+    "criteria": {
+      "has_planks": "2023-12-13 03:33:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/acacia_trapdoor": {
+    "criteria": {
+      "has_planks": "2023-12-13 03:33:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/acacia_fence": {
+    "criteria": {
+      "has_planks": "2023-12-13 03:33:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/acacia_stairs": {
+    "criteria": {
+      "has_planks": "2023-12-13 03:33:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/acacia_door": {
+    "criteria": {
+      "has_planks": "2023-12-13 03:33:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/acacia_fence_gate": {
+    "criteria": {
+      "has_planks": "2023-12-13 03:33:16 +0000"
     },
     "done": true
   },
