@@ -18,9 +18,12 @@
       "minecraft:wooded_badlands": "2023-12-09 01:07:50 +0000",
       "minecraft:beach": "2023-12-06 01:22:22 +0000",
       "minecraft:dark_forest": "2023-12-06 03:36:28 +0000",
+      "minecraft:mangrove_swamp": "2023-12-19 01:32:07 +0000",
       "minecraft:sparse_jungle": "2023-12-09 01:06:43 +0000",
       "minecraft:river": "2023-12-06 01:27:59 +0000",
+      "minecraft:lukewarm_ocean": "2023-12-19 01:34:34 +0000",
       "minecraft:stony_shore": "2023-12-06 02:10:15 +0000",
+      "minecraft:snowy_plains": "2023-12-19 01:52:03 +0000",
       "minecraft:dripstone_caves": "2023-12-06 01:37:48 +0000",
       "minecraft:grove": "2023-12-12 20:08:36 +0000",
       "minecraft:jagged_peaks": "2023-12-12 20:07:16 +0000",
@@ -30,11 +33,14 @@
       "minecraft:deep_cold_ocean": "2023-12-07 17:29:44 +0000",
       "minecraft:desert": "2023-12-09 01:07:36 +0000",
       "minecraft:ocean": "2023-12-06 02:16:19 +0000",
+      "minecraft:jungle": "2023-12-19 01:32:50 +0000",
+      "minecraft:windswept_savanna": "2023-12-19 01:32:02 +0000",
       "minecraft:flower_forest": "2023-12-06 02:10:43 +0000",
       "minecraft:frozen_peaks": "2023-12-12 20:14:51 +0000",
       "minecraft:old_growth_birch_forest": "2023-12-06 03:20:51 +0000",
       "minecraft:deep_dark": "2023-12-07 20:09:04 +0000",
       "minecraft:meadow": "2023-12-06 02:02:51 +0000",
+      "minecraft:savanna": "2023-12-19 01:31:47 +0000",
       "minecraft:plains": "2023-12-06 01:22:12 +0000"
     },
     "done": false
@@ -936,6 +942,7 @@
       "minecraft:hoglin": "2023-12-06 19:54:12 +0000",
       "minecraft:magma_cube": "2023-12-11 23:15:59 +0000",
       "minecraft:spider": "2023-12-06 01:36:26 +0000",
+      "minecraft:piglin_brute": "2023-12-19 01:43:08 +0000",
       "minecraft:creeper": "2023-12-06 05:01:28 +0000",
       "minecraft:wither": "2023-12-12 03:14:08 +0000",
       "minecraft:phantom": "2023-12-11 03:20:37 +0000",
@@ -2640,9 +2647,10 @@
       "minecraft:crimson_forest": "2023-12-06 19:31:45 +0000",
       "minecraft:nether_wastes": "2023-12-06 20:06:49 +0000",
       "minecraft:soul_sand_valley": "2023-12-06 20:08:56 +0000",
-      "minecraft:basalt_deltas": "2023-12-11 03:02:33 +0000"
+      "minecraft:basalt_deltas": "2023-12-11 03:02:33 +0000",
+      "minecraft:warped_forest": "2023-12-19 01:36:47 +0000"
     },
-    "done": false
+    "done": true
   },
   "minecraft:recipes/redstone/observer": {
     "criteria": {
@@ -4478,6 +4486,204 @@
   "minecraft:recipes/misc/iron_ingot_from_smelting_deepslate_iron_ore": {
     "criteria": {
       "has_deepslate_iron_ore": "2023-12-13 19:17:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/trim_with_any_armor_pattern": {
+    "criteria": {
+      "armor_trimmed_minecraft:coast_armor_trim_smithing_template_smithing_trim": "2023-12-19 01:26:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/packed_mud": {
+    "criteria": {
+      "has_mud": "2023-12-19 01:32:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/brown_dye": {
+    "criteria": {
+      "has_cocoa_beans": "2023-12-19 01:33:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cookie": {
+    "criteria": {
+      "has_cocoa": "2023-12-19 01:33:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_ingot": {
+    "criteria": {
+      "has_netherite_scrap": "2023-12-19 01:45:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_upgrade_smithing_template": {
+    "criteria": {
+      "has_netherite_upgrade_smithing_template": "2023-12-19 01:45:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/fast_travel": {
+    "criteria": {
+      "travelled": "2023-12-19 01:52:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_basalt": {
+    "criteria": {
+      "has_basalt": "2023-12-19 04:05:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_blue_wool": {
+    "criteria": {
+      "has_needed_dye": "2023-12-19 03:21:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/trim_with_all_exclusive_armor_patterns": {
+    "criteria": {
+      "armor_trimmed_minecraft:spire_armor_trim_smithing_template_smithing_trim": "2023-12-19 02:05:12 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/netherite_block": {
+    "criteria": {
+      "has_netherite_ingot": "2023-12-19 02:56:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_brown_bed": {
+    "criteria": {
+      "has_needed_dye": "2023-12-19 02:06:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_boots_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2023-12-19 02:56:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/cyan_dye": {
+    "criteria": {
+      "has_blue_dye": "2023-12-19 03:21:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_shovel_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2023-12-19 02:56:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_chestplate_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2023-12-19 02:56:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_blue_carpet": {
+    "criteria": {
+      "has_needed_dye": "2023-12-19 03:21:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_sword_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2023-12-19 02:56:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_candle": {
+    "criteria": {
+      "has_blue_dye": "2023-12-19 03:21:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/salvage_sherd": {
+    "criteria": {
+      "has_sherd": "2023-12-19 02:49:30 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/combat/netherite_leggings_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2023-12-19 02:56:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_axe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2023-12-19 02:56:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_hoe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2023-12-19 02:56:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_brown_carpet": {
+    "criteria": {
+      "has_needed_dye": "2023-12-19 02:06:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_basalt_from_basalt_stonecutting": {
+    "criteria": {
+      "has_basalt": "2023-12-19 04:05:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_blue_bed": {
+    "criteria": {
+      "has_needed_dye": "2023-12-19 03:21:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_candle": {
+    "criteria": {
+      "has_brown_dye": "2023-12-19 02:06:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_pickaxe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2023-12-19 02:56:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_brown_wool": {
+    "criteria": {
+      "has_needed_dye": "2023-12-19 02:06:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_basalt": {
+    "criteria": {
+      "has_basalt": "2023-12-19 04:05:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lodestone": {
+    "criteria": {
+      "has_netherite_ingot": "2023-12-19 02:56:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/decorated_pot_simple": {
+    "criteria": {
+      "has_brick": "2023-12-19 02:49:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_helmet_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2023-12-19 02:56:54 +0000"
     },
     "done": true
   },

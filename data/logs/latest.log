@@ -1,466 +1,548 @@
-[20:28:46] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[20:28:48] [ServerMain/INFO]: Loaded 7 recipes
-[20:28:48] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[20:28:48] [Server thread/INFO]: Loading properties
-[20:28:48] [Server thread/INFO]: This server is running CraftBukkit version 3871-Spigot-d2eba2c-3f9263b (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT)
-[20:28:48] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[20:28:48] [Server thread/INFO]: Using 4 threads for Netty based IO
-[20:28:48] [Server thread/INFO]: Debug logging is disabled
-[20:28:48] [Server thread/INFO]: Default game type: SURVIVAL
-[20:28:48] [Server thread/INFO]: Generating keypair
-[20:28:48] [Server thread/INFO]: Starting Minecraft server on *:25565
-[20:28:48] [Server thread/INFO]: Using epoll channel type
-[20:28:49] [Server thread/INFO]: [TreeFeller] Loading TreeFeller v1.22.2
-[20:28:49] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[20:28:49] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[20:28:49] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[20:28:49] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[20:28:49] [Server thread/INFO]: Preparing level "world"
-[20:28:49] [Server thread/INFO]: -------- World Settings For [world] --------
-[20:28:49] [Server thread/INFO]: View Distance: 32
-[20:28:49] [Server thread/INFO]: Simulation Distance: 10
-[20:28:49] [Server thread/INFO]: Item Despawn Rate: 6000
-[20:28:49] [Server thread/INFO]: Item Merge Radius: 2.5
-[20:28:49] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[20:28:49] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[20:28:49] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[20:28:49] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[20:28:49] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[20:28:49] [Server thread/INFO]: Cane Growth Modifier: 100%
-[20:28:49] [Server thread/INFO]: Melon Growth Modifier: 100%
-[20:28:49] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[20:28:49] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[20:28:49] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[20:28:49] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[20:28:49] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[20:28:49] [Server thread/INFO]: Potato Growth Modifier: 100%
-[20:28:49] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[20:28:49] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[20:28:49] [Server thread/INFO]: Vine Growth Modifier: 100%
-[20:28:49] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[20:28:49] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[20:28:49] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[20:28:49] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[20:28:49] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
-[20:28:49] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
-[20:28:49] [Server thread/INFO]: CaveVines Growth Modifier: 100%
-[20:28:49] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[20:28:49] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
-[20:28:49] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[20:28:49] [Server thread/INFO]: Experience Merge Radius: 3.0
-[20:28:49] [Server thread/INFO]: Mob Spawn Range: 6
-[20:28:49] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[20:28:49] [Server thread/INFO]: Max TNT Explosions: 100
-[20:28:49] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[20:28:49] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[20:28:49] [Server thread/INFO]: View Distance: 32
-[20:28:49] [Server thread/INFO]: Simulation Distance: 10
-[20:28:49] [Server thread/INFO]: Item Despawn Rate: 6000
-[20:28:49] [Server thread/INFO]: Item Merge Radius: 2.5
-[20:28:49] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[20:28:49] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[20:28:49] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[20:28:49] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[20:28:49] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[20:28:49] [Server thread/INFO]: Cane Growth Modifier: 100%
-[20:28:49] [Server thread/INFO]: Melon Growth Modifier: 100%
-[20:28:49] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[20:28:49] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[20:28:49] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[20:28:49] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[20:28:49] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[20:28:49] [Server thread/INFO]: Potato Growth Modifier: 100%
-[20:28:49] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[20:28:49] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[20:28:49] [Server thread/INFO]: Vine Growth Modifier: 100%
-[20:28:49] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[20:28:49] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[20:28:49] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[20:28:49] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[20:28:49] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
-[20:28:49] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
-[20:28:49] [Server thread/INFO]: CaveVines Growth Modifier: 100%
-[20:28:49] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[20:28:49] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
-[20:28:49] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[20:28:49] [Server thread/INFO]: Experience Merge Radius: 3.0
-[20:28:49] [Server thread/INFO]: Mob Spawn Range: 6
-[20:28:49] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[20:28:49] [Server thread/INFO]: Max TNT Explosions: 100
-[20:28:49] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[20:28:50] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[20:28:50] [Server thread/INFO]: View Distance: 32
-[20:28:50] [Server thread/INFO]: Simulation Distance: 10
-[20:28:50] [Server thread/INFO]: Item Despawn Rate: 6000
-[20:28:50] [Server thread/INFO]: Item Merge Radius: 2.5
-[20:28:50] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[20:28:50] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[20:28:50] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[20:28:50] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[20:28:50] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[20:28:50] [Server thread/INFO]: Cane Growth Modifier: 100%
-[20:28:50] [Server thread/INFO]: Melon Growth Modifier: 100%
-[20:28:50] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[20:28:50] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[20:28:50] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[20:28:50] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[20:28:50] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[20:28:50] [Server thread/INFO]: Potato Growth Modifier: 100%
-[20:28:50] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[20:28:50] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[20:28:50] [Server thread/INFO]: Vine Growth Modifier: 100%
-[20:28:50] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[20:28:50] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[20:28:50] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[20:28:50] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[20:28:50] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
-[20:28:50] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
-[20:28:50] [Server thread/INFO]: CaveVines Growth Modifier: 100%
-[20:28:50] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[20:28:50] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
-[20:28:50] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[20:28:50] [Server thread/INFO]: Experience Merge Radius: 3.0
-[20:28:50] [Server thread/INFO]: Mob Spawn Range: 6
-[20:28:50] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[20:28:50] [Server thread/INFO]: Max TNT Explosions: 100
-[20:28:50] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[20:28:50] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[20:28:53] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[20:28:53] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[20:28:53] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[20:28:53] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[20:28:53] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[20:28:53] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[20:28:53] [Worker-Main-1/INFO]: Preparing spawn area: 9%
-[20:28:54] [Worker-Main-6/INFO]: Preparing spawn area: 91%
-[20:28:54] [Server thread/INFO]: Time elapsed: 3536 ms
-[20:28:54] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[20:28:55] [Worker-Main-7/INFO]: Preparing spawn area: 0%
-[20:28:55] [Worker-Main-7/INFO]: Preparing spawn area: 0%
-[20:28:55] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[20:28:55] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[20:28:56] [Worker-Main-5/INFO]: Preparing spawn area: 3%
-[20:28:56] [Server thread/INFO]: Time elapsed: 2378 ms
-[20:28:56] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[20:28:57] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[20:28:57] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[20:28:57] [Worker-Main-2/INFO]: Preparing spawn area: 1%
-[20:28:58] [Server thread/INFO]: Time elapsed: 1462 ms
-[20:28:58] [Server thread/INFO]: [TreeFeller] Enabling TreeFeller v1.22.2
-[20:28:58] [Server thread/INFO]: [TreeFeller] TreeFeller has been enabled! (Version 1.22.2) by ThizThizzyDizzy
-[20:28:58] [Server thread/INFO]: [TreeFeller] Server version: 1_20_R1
-[20:28:58] [Server thread/INFO]: [TreeFeller] Loaded global values:
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Startup Logs: true
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Default Enabled: true
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Scan Distance: 256
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Leaf Detect Range: 6
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Leaf Break Range: 6
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Required Logs: 4
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Required Leaves: 10
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Max Logs: 250
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Max Height: 5
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Allow Partial: false
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Allow Partial Tool: false
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Player Leaves: false
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Diagonal Leaves: false
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Ignore Leaf Data: false
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Require Cross Section: false
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Force Distance Check: false
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Decorations: [snow, vines, cocoa, weeping vines, moss]
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Max Horizontal Trunk Pillar Length: 6
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Max Trunks: 1
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Cutting Animation: false
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Anim Delay: 1
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Replant Saplings: false
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Use Inventory Saplings: false
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Spawn Saplings: 0
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Sapling Timeout: 50
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Grass: [DIRT, GRASS_BLOCK, PODZOL]
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Root Distance: 6
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Log Behavior: BREAK
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Leaf Behavior: BREAK
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Fall Hurt Amount: 2.0
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Fall Hurt Max: 40
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Directional Fall Behavior: RANDOM
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Overridables: [WATER, GRASS, AIR, TALL_GRASS, FERN, CAVE_AIR, SEAGRASS, TALL_SEAGRASS, LARGE_FERN]
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Lock Fall Cardinal: false
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Directional Fall Velocity: 0.35
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Vertical Fall Velocity: 0.05
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Explosive Fall Velocity: 0.0
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Random Fall Velocity: 0.0
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Fall Delay: 0
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Respect Unbreaking: true
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Respect Unbreakable: true
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Damage Mult: 1.0
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Stacked Tools: false
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Leaf Fortune: true
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Leaf Silk Touch: false
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Log Fortune: true
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Log Silk Touch: true
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Leave Stump: false
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Rotate Logs: true
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Drop Conversions: {WARPED_HYPHAE=WARPED_STEM, ACACIA_WOOD=ACACIA_LOG, SPRUCE_WOOD=SPRUCE_LOG, BIRCH_WOOD=BIRCH_LOG, JUNGLE_WOOD=JUNGLE_LOG, OAK_WOOD=OAK_LOG, DARK_OAK_WOOD=DARK_OAK_LOG, CRIMSON_HYPHAE=CRIMSON_STEM}
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Leaf Drop Chance: 1.0
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Log Drop Chance: 1.0
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Effects: []
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Consumed Food Base: 0.0
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Consumed Food Logs: 0.0
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Consumed Food Leaves: 0.0
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Consumed Health Base: 0.0
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Consumed Health Logs: 0.0
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Consumed Health Leaves: 0.0
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Prevent Breakage: false
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Enable Adventure: false
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Enable Survival: true
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Enable Creative: false
-[20:28:58] [Server thread/INFO]: [TreeFeller] - With Sneak: false
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Without Sneak: true
-[20:28:58] [Server thread/INFO]: [TreeFeller] - World Blacklist: false
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Cascade: false
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Parallel Cascade Limit: 1
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Cascade Check Limit: 64
-[20:28:58] [Server thread/INFO]: [TreeFeller] - MMOCore Trunk XP: {woodcutting=1.0}
-[20:28:58] [Server thread/INFO]: [TreeFeller] - MMOCore Leaves XP: {woodcutting=0.0}
-[20:28:58] [Server thread/INFO]: [TreeFeller] - MMOCore Tree XP: {woodcutting=0.0}
-[20:28:58] [Server thread/INFO]: [TreeFeller] - MMOCore Emulate Regen: false
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Compatibility MMOCore: true
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Compatibility Jobs: true
-[20:28:58] [Server thread/INFO]: [TreeFeller] - MCMMO Double Drops: true
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Compatibility mcMMO: true
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Compatibility mcMMO Classic: true
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Compatibility CoreProtect: true
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Compatibility WorldGuard: true
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Compatibility GriefPrevention: true
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Compatibility Towny: true
-[20:28:58] [Server thread/INFO]: [TreeFeller] - OreRegenerator Regen Delay: 1200
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Compatibility OreRegenerator: false
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Compatibility Drop2Inventory: true
-[20:28:58] [Server thread/INFO]: [TreeFeller] - EcoSkills Trunk XP: {Woodcutting=1.0}
-[20:28:58] [Server thread/INFO]: [TreeFeller] - EcoSkills Leaves XP: {woodcutting=0.0}
-[20:28:58] [Server thread/INFO]: [TreeFeller] - EcoSkills Tree XP: {woodcutting=0.0}
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Compatibility EcoSkills: true
-[20:28:58] [Server thread/INFO]: [TreeFeller] - EcoJobs Apply Multipliers: true
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Compatibility EcoJobs: true
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Compatibility LogBlock Legacy: false
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Compatibility LogBlock: true
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Compatibility Lands: true
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Compatibility PlaceholderAPI: true
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Compatibility SaberFactions: true
-[20:28:58] [Server thread/INFO]: [TreeFeller] - AureliumSkills Trunk XP: {foraging=1.0}
-[20:28:58] [Server thread/INFO]: [TreeFeller] - AureliumSkills Leaves XP: {foraging=0.0}
-[20:28:58] [Server thread/INFO]: [TreeFeller] - AureliumSkills Apply Modifiers: true
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Compatibility AureliumSkills: true
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Compatibility BlockRegen: false
-[20:28:58] [Server thread/INFO]: [TreeFeller] Loaded Tree!
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Trunk: OAK_LOG, OAK_WOOD
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Leaves: OAK_LEAVES
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Sapling: [OAK_SAPLING]
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
-[20:28:58] [Server thread/INFO]: [TreeFeller] Loaded Tree!
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Trunk: BIRCH_LOG, BIRCH_WOOD
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Leaves: BIRCH_LEAVES
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Sapling: [BIRCH_SAPLING]
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
-[20:28:58] [Server thread/INFO]: [TreeFeller] Loaded Tree!
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Trunk: SPRUCE_LOG, SPRUCE_WOOD
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Leaves: SPRUCE_LEAVES
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Sapling: [SPRUCE_SAPLING]
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Max Saplings: 4
-[20:28:58] [Server thread/INFO]: [TreeFeller] Loaded Tree!
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Trunk: JUNGLE_LOG, JUNGLE_WOOD
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Leaves: JUNGLE_LEAVES
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Sapling: [JUNGLE_SAPLING]
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Max Saplings: 4
-[20:28:58] [Server thread/INFO]: [TreeFeller] Loaded Tree!
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Trunk: DARK_OAK_LOG, DARK_OAK_WOOD
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Leaves: DARK_OAK_LEAVES
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Sapling: [DARK_OAK_SAPLING]
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Max Saplings: 4
-[20:28:58] [Server thread/INFO]: [TreeFeller] Loaded Tree!
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Trunk: ACACIA_LOG, ACACIA_WOOD
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Leaves: ACACIA_LEAVES
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Sapling: [ACACIA_SAPLING]
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
-[20:28:58] [Server thread/INFO]: [TreeFeller] Loaded Tree!
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Trunk: OAK_LOG, OAK_WOOD
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Leaves: AZALEA_LEAVES, FLOWERING_AZALEA_LEAVES
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Diagonal Leaves: true
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Sapling: [FLOWERING_AZALEA, AZALEA]
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
-[20:28:58] [Server thread/INFO]: [TreeFeller] Loaded Tree!
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Trunk: MANGROVE_LOG, MANGROVE_WOOD
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Leaves: MANGROVE_ROOTS, MANGROVE_LEAVES
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Leaf Detect Range: 16
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Leaf Break Range: 16
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Required Logs: 3
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Diagonal Leaves: true
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Max Horizontal Trunk Pillar Length: 16
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Max Trunks: 16
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Sapling: [MANGROVE_PROPAGULE]
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Roots: [MANGROVE_ROOTS]
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Root Distance: 16
-[20:28:58] [Server thread/INFO]: [TreeFeller] Loaded Tree!
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Trunk: CHERRY_LOG, CHERRY_WOOD
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Leaves: CHERRY_LEAVES
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Sapling: [CHERRY_SAPLING]
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
-[20:28:58] [Server thread/INFO]: [TreeFeller] Loaded Tree!
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Trunk: CRIMSON_STEM, CRIMSON_HYPHAE
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Leaves: NETHER_WART_BLOCK, SHROOMLIGHT
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Leaf Detect Range: 8
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Leaf Break Range: 8
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Diagonal Leaves: true
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Sapling: [CRIMSON_FUNGUS]
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Grass: [CRIMSON_NYLIUM]
-[20:28:58] [Server thread/INFO]: [TreeFeller] Loaded Tree!
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Trunk: WARPED_STEM, WARPED_HYPHAE
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Leaves: WARPED_WART_BLOCK, SHROOMLIGHT
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Leaf Detect Range: 8
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Leaf Break Range: 8
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Diagonal Leaves: true
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Sapling: [WARPED_FUNGUS]
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
-[20:28:58] [Server thread/INFO]: [TreeFeller] - Grass: [WARPED_NYLIUM]
-[20:28:58] [Server thread/INFO]: [TreeFeller] Loaded tool: WOODEN_AXE
-[20:28:58] [Server thread/INFO]: [TreeFeller] Loaded tool: STONE_AXE
-[20:28:58] [Server thread/INFO]: [TreeFeller] Loaded tool: IRON_AXE
-[20:28:58] [Server thread/INFO]: [TreeFeller] Loaded tool: GOLDEN_AXE
-[20:28:58] [Server thread/INFO]: [TreeFeller] Loaded tool: DIAMOND_AXE
-[20:28:58] [Server thread/INFO]: [TreeFeller] Loaded tool: NETHERITE_AXE
-[20:28:58] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[20:28:58] [Server thread/INFO]: Done (9.113s)! For help, type "help"
-[20:28:58] [Server thread/INFO]: Starting remote control listener
-[20:28:58] [Server thread/INFO]: Thread RCON Listener started
-[20:28:58] [Server thread/INFO]: RCON running on 0.0.0.0:25575
-[20:29:26] [User Authenticator #1/INFO]: UUID of player ebner is 214e86b8-4ad6-3f36-9172-cc7525d637e2
-[20:29:26] [Server thread/INFO]: ebner joined the game
-[20:29:26] [Server thread/INFO]: ebner[/172.19.0.1:36144] logged in with entity id 149 at ([world]1885.861119372456, 124.0, -1295.2686944314403)
-[20:33:44] [Server thread/WARN]: ebner moved too quickly! -2306.778658303765,26.23363200604248,-330.9920319905775
-[20:33:44] [Server thread/WARN]: ebner moved too quickly! -2306.778658303765,26.23363200604248,-330.9920319905775
-[20:33:44] [Server thread/WARN]: ebner moved too quickly! -2306.778658303765,26.23363200604248,-330.9920319905775
-[20:33:44] [Server thread/WARN]: ebner moved too quickly! -2306.778658303765,26.23363200604248,-330.9920319905775
-[20:42:17] [Server thread/INFO]: ebner fell out of the world
-[20:43:30] [Server thread/INFO]: ebner fell from a high place
-[20:44:12] [Server thread/INFO]: ebner suffocated in a wall
-[21:07:37] [Server thread/INFO]: ebner didn't want to live in the same world as Endermite
-[21:09:06] [Server thread/INFO]: ebner hit the ground too hard
-[21:16:13] [Server thread/WARN]: ebner moved too quickly! -2305.8747049352705,25.945106652967926,-330.0752490908171
-[21:18:40] [Server thread/INFO]: ebner lost connection: Disconnected
-[21:18:40] [Server thread/INFO]: ebner left the game
-[21:21:44] [User Authenticator #2/INFO]: UUID of player pepe216 is 834b23fb-6414-374c-bd5a-e1a7c304a6a0
-[21:21:45] [Server thread/INFO]: pepe216 joined the game
-[21:21:45] [Server thread/INFO]: pepe216[/172.19.0.1:55386] logged in with entity id 23433 at ([world]1898.925000011921, 110.0, -1252.5551755982597)
-[21:22:04] [Async Chat Thread - #1/INFO]: [Not Secure] <pepe216> te pase el tunel de playit jajajaja
-[21:34:16] [Server thread/WARN]: pepe216 moved too quickly! -5.797764405869884,0.0,-9.58936237695184
-[21:44:37] [User Authenticator #3/INFO]: UUID of player ebner is 214e86b8-4ad6-3f36-9172-cc7525d637e2
-[21:44:37] [Server thread/INFO]: ebner joined the game
-[21:44:37] [Server thread/INFO]: ebner[/172.19.0.1:57986] logged in with entity id 30001 at ([world_the_end]245.75764318033916, 1.0, -6.802722423383055)
-[21:44:45] [Async Chat Thread - #2/INFO]: [Not Secure] <ebner> oa
-[21:44:45] [Async Chat Thread - #3/INFO]: [Not Secure] <pepe216> holi
-[21:44:54] [Async Chat Thread - #2/INFO]: [Not Secure] <pepe216> no tenias el tunel de playit xdxd
-[21:45:27] [Async Chat Thread - #3/INFO]: [Not Secure] <pepe216> toy viendo de hacer un hueco en bedrock para ir al end mas facil
-[21:45:34] [Async Chat Thread - #2/INFO]: [Not Secure] <ebner> oka
-[21:56:53] [Server thread/INFO]: ebner was slain by Enderman
-[21:56:56] [Async Chat Thread - #4/INFO]: [Not Secure] <pepe216> f
-[21:57:00] [Async Chat Thread - #5/INFO]: [Not Secure] <ebner> PERO WTF
-[21:57:08] [Async Chat Thread - #4/INFO]: [Not Secure] <ebner> igual no perdi nada jajaja
-[21:57:22] [Async Chat Thread - #5/INFO]: [Not Secure] <ebner> se puede subir al techo del nether sin enderperls
-[21:57:24] [Async Chat Thread - #4/INFO]: [Not Secure] <ebner> t_
-[21:57:26] [Async Chat Thread - #5/INFO]: [Not Secure] <ebner> ?
-[21:57:46] [Async Chat Thread - #4/INFO]: [Not Secure] <pepe216> cuando rompa el bedrock si
-[21:57:58] [Async Chat Thread - #5/INFO]: [Not Secure] <ebner> todavia no
-[21:57:59] [Async Chat Thread - #4/INFO]: [Not Secure] <ebner> ?
-[21:58:03] [Async Chat Thread - #5/INFO]: [Not Secure] <pepe216> nopo
-[21:58:08] [Async Chat Thread - #4/INFO]: [Not Secure] <pepe216> dame un toque
-[21:58:13] [Async Chat Thread - #5/INFO]: [Not Secure] <ebner> tranca
-[22:00:12] [Async Chat Thread - #6/INFO]: [Not Secure] <ebner> que estas haciendo?
-[22:00:23] [Async Chat Thread - #7/INFO]: [Not Secure] <pepe216> rompiendo bedrock
-[22:00:24] [Async Chat Thread - #6/INFO]: [Not Secure] <pepe216> xd
-[22:01:46] [Server thread/INFO]: ebner hit the ground too hard
-[22:01:46] [Async Chat Thread - #8/INFO]: [Not Secure] <pepe216> xd
-[22:01:52] [Server thread/INFO]: ebner issued server command: /tp pepe216
-[22:01:53] [Server thread/INFO]: [ebner: Teleported ebner to pepe216]
-[22:02:30] [Async Chat Thread - #9/INFO]: [Not Secure] <ebner> eu
-[22:02:37] [Async Chat Thread - #8/INFO]: [Not Secure] <pepe216> que
-[22:02:37] [Async Chat Thread - #9/INFO]: [Not Secure] <ebner> podes buscar mis cosas con la elytra?
-[22:02:41] [Async Chat Thread - #8/INFO]: [Not Secure] <pepe216> se
-[22:02:42] [Async Chat Thread - #9/INFO]: [Not Secure] <pepe216> donde
-[22:02:45] [Async Chat Thread - #8/INFO]: [Not Secure] <ebner> no se
-[22:02:48] [Async Chat Thread - #9/INFO]: [Not Secure] <pepe216> xd
-[22:02:49] [Async Chat Thread - #8/INFO]: [Not Secure] <ebner> onda f3b
-[22:02:54] [Async Chat Thread - #9/INFO]: [Not Secure] <pepe216> ah
-[22:02:55] [Async Chat Thread - #8/INFO]: [Not Secure] <ebner> y volar por aca
-[22:02:59] [Async Chat Thread - #9/INFO]: [Not Secure] <pepe216> aca en el nether?
-[22:03:00] [Async Chat Thread - #8/INFO]: [Not Secure] <ebner> radio una ender perl
-[22:03:04] [Async Chat Thread - #9/INFO]: [Not Secure] <ebner> sisi
-[22:03:09] [Async Chat Thread - #8/INFO]: [Not Secure] <ebner> aca estnba
-[22:03:20] [Server thread/INFO]: ebner issued server command: /gamemode spectator
-[22:03:20] [Server thread/INFO]: [ebner: Set own game mode to Spectator Mode]
-[22:03:21] [Async Chat Thread - #9/INFO]: [Not Secure] <pepe216> xd
-[22:03:32] [Async Chat Thread - #8/INFO]: [Not Secure] <ebner> man
-[22:03:35] [Async Chat Thread - #9/INFO]: [Not Secure] <ebner> saque la gui
-[22:03:37] [Async Chat Thread - #9/INFO]: [Not Secure] <ebner> que onda
-[22:03:42] [Server thread/INFO]: ebner issued server command: /gamemode survival
-[22:03:42] [Server thread/INFO]: [ebner: Set own game mode to Survival Mode]
-[22:03:44] [Async Chat Thread - #8/INFO]: [Not Secure] <pepe216> tas en spectator
-[22:03:47] [Async Chat Thread - #9/INFO]: [Not Secure] <pepe216> ahi ta
-[22:03:53] [Async Chat Thread - #8/INFO]: [Not Secure] <ebner> como pingo saco eso
-[22:04:06] [Async Chat Thread - #9/INFO]: [Not Secure] <pepe216> f3 f4
-[22:04:56] [Async Chat Thread - #8/INFO]: [Not Secure] <ebner> god me olvide la mitad de las cosas
-[22:05:01] [Async Chat Thread - #9/INFO]: [Not Secure] <ebner> che tengo un piston
-[22:05:02] [Async Chat Thread - #8/INFO]: [Not Secure] <ebner> que odna?
-[22:05:27] [Async Chat Thread - #9/INFO]: [Not Secure] <pepe216> buena onda
-[22:05:30] [Async Chat Thread - #8/INFO]: [Not Secure] <pepe216> era mio
-[22:05:37] [Async Chat Thread - #9/INFO]: [Not Secure] <pepe216> tengo un stack no te preocupes
-[22:05:41] [Async Chat Thread - #8/INFO]: [Not Secure] <ebner> jajaja
-[22:05:59] [Async Chat Thread - #9/INFO]: [Not Secure] <pepe216> donde t olvidaste la mitad de las cosas
-[22:06:01] [Async Chat Thread - #8/INFO]: [Not Secure] <pepe216> xd
-[22:07:12] [Async Chat Thread - #10/INFO]: [Not Secure] <pepe216> che
-[22:07:26] [Async Chat Thread - #11/INFO]: [Not Secure] <ebner> quye
-[22:07:35] [Async Chat Thread - #10/INFO]: [Not Secure] <pepe216> podes probar de hacer esto vs que tas en localhost capaz te anda
-[22:08:06] [Async Chat Thread - #11/INFO]: [Not Secure] <ebner> sisi
-[22:08:07] [Async Chat Thread - #10/INFO]: [Not Secure] <ebner> dame 5
-[22:09:52] [Async Chat Thread - #12/INFO]: [Not Secure] <pepe216> ya ta
-[22:09:56] [Async Chat Thread - #13/INFO]: [Not Secure] <ebner> god
-[22:11:07] [Server thread/INFO]: ebner was slain by Enderman
-[22:11:11] [Async Chat Thread - #14/INFO]: [Not Secure] <ebner> basta dio
-[22:11:16] [Async Chat Thread - #15/INFO]: [Not Secure] <pepe216> donde
-[22:11:20] [Async Chat Thread - #14/INFO]: [Not Secure] <ebner> no vayas al end
-[22:11:22] [Async Chat Thread - #15/INFO]: [Not Secure] <ebner> en la granja
-[22:11:24] [Async Chat Thread - #14/INFO]: [Not Secure] <ebner> de chill
-[22:11:28] [Async Chat Thread - #15/INFO]: [Not Secure] <pepe216> cual
-[22:11:29] [Async Chat Thread - #14/INFO]: [Not Secure] <ebner> no perdi nada
-[22:11:32] [Async Chat Thread - #15/INFO]: [Not Secure] <pepe216> la de xp?
-[22:11:34] [Async Chat Thread - #14/INFO]: [Not Secure] <pepe216> xd
-[22:11:35] [Async Chat Thread - #15/INFO]: [Not Secure] <ebner> sisi
-[22:11:37] [Async Chat Thread - #14/INFO]: [Not Secure] <ebner> tranca
-[22:11:41] [Async Chat Thread - #15/INFO]: [Not Secure] <ebner> no hace falta que busques nada
-[22:12:03] [Async Chat Thread - #14/INFO]: [Not Secure] <pepe216> yo estaba yendo a esa granja
-[22:12:04] [Async Chat Thread - #15/INFO]: [Not Secure] <pepe216> txd
-[22:12:14] [Async Chat Thread - #15/INFO]: [Not Secure] <ebner> agarra las cosas
-[22:12:23] [Async Chat Thread - #14/INFO]: [Not Secure] <pepe216> ok
-[22:13:30] [Async Chat Thread - #16/INFO]: [Not Secure] <ebner> ds?
-[22:15:14] [Async Chat Thread - #18/INFO]: [Not Secure] <ebner> el resto?
-[22:15:23] [Async Chat Thread - #19/INFO]: [Not Secure] <ebner> f?
-[22:15:26] [Async Chat Thread - #18/INFO]: [Not Secure] <pepe216> estaba prendido el dispenser
-[22:15:28] [Async Chat Thread - #19/INFO]: [Not Secure] <ebner> f
-[22:15:29] [Async Chat Thread - #18/INFO]: [Not Secure] <ebner> tf
-[22:15:30] [Async Chat Thread - #19/INFO]: [Not Secure] <ebner> f
-[22:15:31] [Async Chat Thread - #18/INFO]: [Not Secure] <ebner> f
-[22:15:31] [Async Chat Thread - #19/INFO]: [Not Secure] <pepe216> si
-[22:15:34] [Async Chat Thread - #18/INFO]: [Not Secure] <pepe216> super f
-[22:15:43] [Async Chat Thread - #19/INFO]: [Not Secure] <ebner> perdi una hacha nomas jajaja
-[22:15:44] [Async Chat Thread - #18/INFO]: [Not Secure] <ebner> tranca
-[22:15:51] [Async Chat Thread - #19/INFO]: [Not Secure] <pepe216> ah
-[22:15:54] [Async Chat Thread - #18/INFO]: [Not Secure] <pepe216> menos mal
-[22:16:17] [Async Chat Thread - #19/INFO]: [Not Secure] <ebner> toma
-[22:16:32] [Async Chat Thread - #18/INFO]: [Not Secure] <ebner> encantala con sweeping edge
-[22:16:35] [Async Chat Thread - #19/INFO]: [Not Secure] <ebner> para dejarla aca
-[22:18:27] [Async Chat Thread - #20/INFO]: [Not Secure] <ebner> god lugar no?
-[22:18:33] [Async Chat Thread - #21/INFO]: [Not Secure] <pepe216> se
-[22:19:47] [Async Chat Thread - #23/INFO]: [Not Secure] <ebner> tenes silk touch=?
-[22:27:28] [Server thread/INFO]: pepe216 lost connection: Disconnected
-[22:27:28] [Server thread/INFO]: pepe216 left the game
-[22:31:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7116ms or 142 ticks behind
+[02:01:29] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[02:01:30] [ServerMain/INFO]: Loaded 7 recipes
+[02:01:30] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[02:01:30] [Server thread/INFO]: Loading properties
+[02:01:30] [Server thread/INFO]: This server is running CraftBukkit version 3871-Spigot-d2eba2c-3f9263b (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT)
+[02:01:30] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[02:01:30] [Server thread/INFO]: Using 4 threads for Netty based IO
+[02:01:30] [Server thread/INFO]: Debug logging is disabled
+[02:01:30] [Server thread/INFO]: Default game type: SURVIVAL
+[02:01:30] [Server thread/INFO]: Generating keypair
+[02:01:31] [Server thread/INFO]: Starting Minecraft server on *:25565
+[02:01:31] [Server thread/INFO]: Using epoll channel type
+[02:01:31] [Server thread/INFO]: [TreeFeller] Loading TreeFeller v1.22.2
+[02:01:31] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[02:01:31] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[02:01:31] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[02:01:31] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[02:01:31] [Server thread/INFO]: Preparing level "world"
+[02:01:31] [Server thread/INFO]: -------- World Settings For [world] --------
+[02:01:31] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[02:01:31] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[02:01:31] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[02:01:31] [Server thread/INFO]: Experience Merge Radius: 3.0
+[02:01:31] [Server thread/INFO]: Mob Spawn Range: 6
+[02:01:31] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[02:01:31] [Server thread/INFO]: Cane Growth Modifier: 100%
+[02:01:31] [Server thread/INFO]: Melon Growth Modifier: 100%
+[02:01:31] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[02:01:31] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[02:01:31] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[02:01:31] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[02:01:31] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[02:01:31] [Server thread/INFO]: Potato Growth Modifier: 100%
+[02:01:31] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[02:01:31] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[02:01:31] [Server thread/INFO]: Vine Growth Modifier: 100%
+[02:01:31] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[02:01:31] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[02:01:31] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[02:01:31] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[02:01:31] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[02:01:31] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[02:01:31] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[02:01:31] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[02:01:31] [Server thread/INFO]: Max TNT Explosions: 100
+[02:01:31] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[02:01:31] [Server thread/INFO]: View Distance: 32
+[02:01:31] [Server thread/INFO]: Simulation Distance: 10
+[02:01:31] [Server thread/INFO]: Item Despawn Rate: 6000
+[02:01:31] [Server thread/INFO]: Item Merge Radius: 2.5
+[02:01:31] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[02:01:31] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[02:01:31] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[02:01:31] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[02:01:31] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[02:01:31] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[02:01:31] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[02:01:31] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[02:01:31] [Server thread/INFO]: Experience Merge Radius: 3.0
+[02:01:31] [Server thread/INFO]: Mob Spawn Range: 6
+[02:01:31] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[02:01:31] [Server thread/INFO]: Cane Growth Modifier: 100%
+[02:01:31] [Server thread/INFO]: Melon Growth Modifier: 100%
+[02:01:31] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[02:01:31] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[02:01:31] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[02:01:31] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[02:01:31] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[02:01:31] [Server thread/INFO]: Potato Growth Modifier: 100%
+[02:01:31] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[02:01:31] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[02:01:31] [Server thread/INFO]: Vine Growth Modifier: 100%
+[02:01:31] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[02:01:31] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[02:01:31] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[02:01:31] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[02:01:31] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[02:01:31] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[02:01:31] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[02:01:31] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[02:01:31] [Server thread/INFO]: Max TNT Explosions: 100
+[02:01:31] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[02:01:31] [Server thread/INFO]: View Distance: 32
+[02:01:31] [Server thread/INFO]: Simulation Distance: 10
+[02:01:31] [Server thread/INFO]: Item Despawn Rate: 6000
+[02:01:31] [Server thread/INFO]: Item Merge Radius: 2.5
+[02:01:31] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[02:01:31] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[02:01:31] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[02:01:31] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[02:01:32] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[02:01:32] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[02:01:32] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[02:01:32] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[02:01:32] [Server thread/INFO]: Experience Merge Radius: 3.0
+[02:01:32] [Server thread/INFO]: Mob Spawn Range: 6
+[02:01:32] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[02:01:32] [Server thread/INFO]: Cane Growth Modifier: 100%
+[02:01:32] [Server thread/INFO]: Melon Growth Modifier: 100%
+[02:01:32] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[02:01:32] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[02:01:32] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[02:01:32] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[02:01:32] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[02:01:32] [Server thread/INFO]: Potato Growth Modifier: 100%
+[02:01:32] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[02:01:32] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[02:01:32] [Server thread/INFO]: Vine Growth Modifier: 100%
+[02:01:32] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[02:01:32] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[02:01:32] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[02:01:32] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[02:01:32] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[02:01:32] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[02:01:32] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[02:01:32] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[02:01:32] [Server thread/INFO]: Max TNT Explosions: 100
+[02:01:32] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[02:01:32] [Server thread/INFO]: View Distance: 32
+[02:01:32] [Server thread/INFO]: Simulation Distance: 10
+[02:01:32] [Server thread/INFO]: Item Despawn Rate: 6000
+[02:01:32] [Server thread/INFO]: Item Merge Radius: 2.5
+[02:01:32] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[02:01:32] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[02:01:32] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[02:01:32] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[02:01:32] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[02:01:35] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[02:01:35] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[02:01:35] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[02:01:35] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[02:01:35] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[02:01:35] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[02:01:35] [Worker-Main-2/INFO]: Preparing spawn area: 1%
+[02:01:36] [Worker-Main-3/INFO]: Preparing spawn area: 84%
+[02:01:36] [Server thread/INFO]: Time elapsed: 3573 ms
+[02:01:36] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[02:01:37] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[02:01:37] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[02:01:37] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[02:01:37] [Yggdrasil Key Fetcher/ERROR]: Failed to request yggdrasil public key
+com.mojang.authlib.exceptions.AuthenticationUnavailableException: Cannot contact authentication server
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:119) ~[authlib-4.0.43.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:91) ~[authlib-4.0.43.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo.fetch(YggdrasilServicesKeyInfo.java:94) ~[authlib-4.0.43.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo.lambda$get$1(YggdrasilServicesKeyInfo.java:81) ~[authlib-4.0.43.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[?:?]
+	at java.util.concurrent.FutureTask.runAndReset(Unknown Source) ~[?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[?:?]
+	at java.lang.Thread.run(Unknown Source) ~[?:?]
+Caused by: java.net.UnknownHostException: api.minecraftservices.com
+	at sun.nio.ch.NioSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.SocksSocketImpl.connect(Unknown Source) ~[?:?]
+	at java.net.Socket.connect(Unknown Source) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.connect(Unknown Source) ~[?:?]
+	at sun.net.NetworkClient.doConnect(Unknown Source) ~[?:?]
+	at sun.net.www.http.HttpClient.openServer(Unknown Source) ~[?:?]
+	at sun.net.www.http.HttpClient.openServer(Unknown Source) ~[?:?]
+	at sun.net.www.protocol.https.HttpsClient.<init>(Unknown Source) ~[?:?]
+	at sun.net.www.protocol.https.HttpsClient.New(Unknown Source) ~[?:?]
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(Unknown Source) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source) ~[?:?]
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(Unknown Source) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source) ~[?:?]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(Unknown Source) ~[?:?]
+	at com.mojang.authlib.HttpAuthenticationService.performGetRequest(HttpAuthenticationService.java:140) ~[authlib-4.0.43.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:96) ~[authlib-4.0.43.jar:?]
+	... 9 more
+[02:01:37] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[02:01:38] [Worker-Main-4/INFO]: Preparing spawn area: 45%
+[02:01:38] [Server thread/INFO]: Time elapsed: 2170 ms
+[02:01:38] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[02:01:38] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[02:01:38] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[02:01:39] [Worker-Main-4/INFO]: Preparing spawn area: 65%
+[02:01:39] [Server thread/INFO]: Time elapsed: 1124 ms
+[02:01:39] [Server thread/INFO]: [TreeFeller] Enabling TreeFeller v1.22.2
+[02:01:39] [Server thread/INFO]: [TreeFeller] TreeFeller has been enabled! (Version 1.22.2) by ThizThizzyDizzy
+[02:01:39] [Server thread/INFO]: [TreeFeller] Server version: 1_20_R1
+[02:01:39] [Server thread/INFO]: [TreeFeller] Loaded global values:
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Startup Logs: true
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Default Enabled: true
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Scan Distance: 256
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Leaf Detect Range: 6
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Leaf Break Range: 6
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Required Logs: 4
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Required Leaves: 10
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Max Logs: 250
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Max Height: 5
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Allow Partial: false
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Allow Partial Tool: false
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Player Leaves: false
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Diagonal Leaves: false
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Ignore Leaf Data: false
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Require Cross Section: false
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Force Distance Check: false
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Decorations: [snow, vines, cocoa, weeping vines, moss]
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Max Horizontal Trunk Pillar Length: 6
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Max Trunks: 1
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Cutting Animation: false
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Anim Delay: 1
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Replant Saplings: false
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Use Inventory Saplings: false
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Spawn Saplings: 0
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Sapling Timeout: 50
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Grass: [PODZOL, DIRT, GRASS_BLOCK]
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Root Distance: 6
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Log Behavior: BREAK
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Leaf Behavior: BREAK
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Fall Hurt Amount: 2.0
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Fall Hurt Max: 40
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Directional Fall Behavior: RANDOM
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Overridables: [GRASS, LARGE_FERN, SEAGRASS, WATER, FERN, CAVE_AIR, TALL_SEAGRASS, TALL_GRASS, AIR]
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Lock Fall Cardinal: false
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Directional Fall Velocity: 0.35
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Vertical Fall Velocity: 0.05
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Explosive Fall Velocity: 0.0
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Random Fall Velocity: 0.0
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Fall Delay: 0
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Respect Unbreaking: true
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Respect Unbreakable: true
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Damage Mult: 1.0
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Stacked Tools: false
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Leaf Fortune: true
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Leaf Silk Touch: false
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Log Fortune: true
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Log Silk Touch: true
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Leave Stump: false
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Rotate Logs: true
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Drop Conversions: {BIRCH_WOOD=BIRCH_LOG, ACACIA_WOOD=ACACIA_LOG, OAK_WOOD=OAK_LOG, SPRUCE_WOOD=SPRUCE_LOG, CRIMSON_HYPHAE=CRIMSON_STEM, JUNGLE_WOOD=JUNGLE_LOG, DARK_OAK_WOOD=DARK_OAK_LOG, WARPED_HYPHAE=WARPED_STEM}
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Leaf Drop Chance: 1.0
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Log Drop Chance: 1.0
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Effects: []
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Consumed Food Base: 0.0
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Consumed Food Logs: 0.0
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Consumed Food Leaves: 0.0
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Consumed Health Base: 0.0
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Consumed Health Logs: 0.0
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Consumed Health Leaves: 0.0
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Prevent Breakage: false
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Enable Adventure: false
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Enable Survival: true
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Enable Creative: false
+[02:01:39] [Server thread/INFO]: [TreeFeller] - With Sneak: false
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Without Sneak: true
+[02:01:39] [Server thread/INFO]: [TreeFeller] - World Blacklist: false
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Cascade: false
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Parallel Cascade Limit: 1
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Cascade Check Limit: 64
+[02:01:39] [Server thread/INFO]: [TreeFeller] - MMOCore Trunk XP: {woodcutting=1.0}
+[02:01:39] [Server thread/INFO]: [TreeFeller] - MMOCore Leaves XP: {woodcutting=0.0}
+[02:01:39] [Server thread/INFO]: [TreeFeller] - MMOCore Tree XP: {woodcutting=0.0}
+[02:01:39] [Server thread/INFO]: [TreeFeller] - MMOCore Emulate Regen: false
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Compatibility MMOCore: true
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Compatibility Jobs: true
+[02:01:39] [Server thread/INFO]: [TreeFeller] - MCMMO Double Drops: true
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Compatibility mcMMO: true
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Compatibility mcMMO Classic: true
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Compatibility CoreProtect: true
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Compatibility WorldGuard: true
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Compatibility GriefPrevention: true
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Compatibility Towny: true
+[02:01:39] [Server thread/INFO]: [TreeFeller] - OreRegenerator Regen Delay: 1200
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Compatibility OreRegenerator: false
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Compatibility Drop2Inventory: true
+[02:01:39] [Server thread/INFO]: [TreeFeller] - EcoSkills Trunk XP: {Woodcutting=1.0}
+[02:01:39] [Server thread/INFO]: [TreeFeller] - EcoSkills Leaves XP: {woodcutting=0.0}
+[02:01:39] [Server thread/INFO]: [TreeFeller] - EcoSkills Tree XP: {woodcutting=0.0}
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Compatibility EcoSkills: true
+[02:01:39] [Server thread/INFO]: [TreeFeller] - EcoJobs Apply Multipliers: true
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Compatibility EcoJobs: true
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Compatibility LogBlock Legacy: false
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Compatibility LogBlock: true
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Compatibility Lands: true
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Compatibility PlaceholderAPI: true
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Compatibility SaberFactions: true
+[02:01:39] [Server thread/INFO]: [TreeFeller] - AureliumSkills Trunk XP: {foraging=1.0}
+[02:01:39] [Server thread/INFO]: [TreeFeller] - AureliumSkills Leaves XP: {foraging=0.0}
+[02:01:39] [Server thread/INFO]: [TreeFeller] - AureliumSkills Apply Modifiers: true
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Compatibility AureliumSkills: true
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Compatibility BlockRegen: false
+[02:01:39] [Server thread/INFO]: [TreeFeller] Loaded Tree!
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Trunk: OAK_LOG, OAK_WOOD
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Leaves: OAK_LEAVES
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Sapling: [OAK_SAPLING]
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
+[02:01:39] [Server thread/INFO]: [TreeFeller] Loaded Tree!
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Trunk: BIRCH_LOG, BIRCH_WOOD
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Leaves: BIRCH_LEAVES
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Sapling: [BIRCH_SAPLING]
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
+[02:01:39] [Server thread/INFO]: [TreeFeller] Loaded Tree!
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Trunk: SPRUCE_LOG, SPRUCE_WOOD
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Leaves: SPRUCE_LEAVES
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Sapling: [SPRUCE_SAPLING]
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Max Saplings: 4
+[02:01:39] [Server thread/INFO]: [TreeFeller] Loaded Tree!
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Trunk: JUNGLE_LOG, JUNGLE_WOOD
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Leaves: JUNGLE_LEAVES
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Sapling: [JUNGLE_SAPLING]
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Max Saplings: 4
+[02:01:39] [Server thread/INFO]: [TreeFeller] Loaded Tree!
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Trunk: DARK_OAK_LOG, DARK_OAK_WOOD
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Leaves: DARK_OAK_LEAVES
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Sapling: [DARK_OAK_SAPLING]
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Max Saplings: 4
+[02:01:39] [Server thread/INFO]: [TreeFeller] Loaded Tree!
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Trunk: ACACIA_LOG, ACACIA_WOOD
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Leaves: ACACIA_LEAVES
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Sapling: [ACACIA_SAPLING]
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
+[02:01:39] [Server thread/INFO]: [TreeFeller] Loaded Tree!
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Trunk: OAK_LOG, OAK_WOOD
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Leaves: AZALEA_LEAVES, FLOWERING_AZALEA_LEAVES
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Diagonal Leaves: true
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Sapling: [AZALEA, FLOWERING_AZALEA]
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
+[02:01:39] [Server thread/INFO]: [TreeFeller] Loaded Tree!
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Trunk: MANGROVE_LOG, MANGROVE_WOOD
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Leaves: MANGROVE_ROOTS, MANGROVE_LEAVES
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Leaf Detect Range: 16
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Leaf Break Range: 16
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Required Logs: 3
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Diagonal Leaves: true
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Max Horizontal Trunk Pillar Length: 16
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Max Trunks: 16
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Sapling: [MANGROVE_PROPAGULE]
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Roots: [MANGROVE_ROOTS]
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Root Distance: 16
+[02:01:39] [Server thread/INFO]: [TreeFeller] Loaded Tree!
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Trunk: CHERRY_LOG, CHERRY_WOOD
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Leaves: CHERRY_LEAVES
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Sapling: [CHERRY_SAPLING]
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
+[02:01:39] [Server thread/INFO]: [TreeFeller] Loaded Tree!
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Trunk: CRIMSON_STEM, CRIMSON_HYPHAE
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Leaves: NETHER_WART_BLOCK, SHROOMLIGHT
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Leaf Detect Range: 8
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Leaf Break Range: 8
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Diagonal Leaves: true
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Sapling: [CRIMSON_FUNGUS]
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Grass: [CRIMSON_NYLIUM]
+[02:01:39] [Server thread/INFO]: [TreeFeller] Loaded Tree!
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Trunk: WARPED_STEM, WARPED_HYPHAE
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Leaves: WARPED_WART_BLOCK, SHROOMLIGHT
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Leaf Detect Range: 8
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Leaf Break Range: 8
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Diagonal Leaves: true
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Sapling: [WARPED_FUNGUS]
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
+[02:01:39] [Server thread/INFO]: [TreeFeller] - Grass: [WARPED_NYLIUM]
+[02:01:39] [Server thread/INFO]: [TreeFeller] Loaded tool: WOODEN_AXE
+[02:01:39] [Server thread/INFO]: [TreeFeller] Loaded tool: STONE_AXE
+[02:01:39] [Server thread/INFO]: [TreeFeller] Loaded tool: IRON_AXE
+[02:01:39] [Server thread/INFO]: [TreeFeller] Loaded tool: GOLDEN_AXE
+[02:01:39] [Server thread/INFO]: [TreeFeller] Loaded tool: DIAMOND_AXE
+[02:01:39] [Server thread/INFO]: [TreeFeller] Loaded tool: NETHERITE_AXE
+[02:01:39] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[02:01:39] [Server thread/INFO]: Done (8.535s)! For help, type "help"
+[02:01:39] [Server thread/INFO]: Starting remote control listener
+[02:01:39] [Server thread/INFO]: Thread RCON Listener started
+[02:01:39] [Server thread/INFO]: RCON running on 0.0.0.0:25575
+[02:02:17] [User Authenticator #1/INFO]: UUID of player pepe216 is 834b23fb-6414-374c-bd5a-e1a7c304a6a0
+[02:02:18] [Server thread/INFO]: pepe216 joined the game
+[02:02:18] [Server thread/INFO]: pepe216[/172.19.0.1:49268] logged in with entity id 76 at ([world_the_end]242.29705889655807, 1.0, -8.022737714367826)
+[02:02:26] [User Authenticator #2/INFO]: UUID of player ebner is 214e86b8-4ad6-3f36-9172-cc7525d637e2
+[02:02:26] [Server thread/INFO]: ebner joined the game
+[02:02:26] [Server thread/INFO]: ebner[/172.19.0.1:49282] logged in with entity id 351 at ([world]1810.1370598048666, 160.55148255655493, 1211.7541320170624)
+[02:03:24] [Async Chat Thread - #1/INFO]: [Not Secure] <pepe216> che
+[02:03:27] [Async Chat Thread - #0/INFO]: [Not Secure] <ebner> que
+[02:03:34] [Async Chat Thread - #0/INFO]: [Not Secure] <ebner> twtf
+[02:03:42] [Async Chat Thread - #1/INFO]: [Not Secure] <pepe216> duplique las shulkers que saque del echest
+[02:03:48] [Async Chat Thread - #0/INFO]: [Not Secure] <ebner> como?
+[02:03:51] [Async Chat Thread - #1/INFO]: [Not Secure] <pepe216> tipo durante el lag
+[02:03:54] [Async Chat Thread - #0/INFO]: [Not Secure] <ebner> ajjajajaja
+[02:03:56] [Async Chat Thread - #1/INFO]: [Not Secure] <ebner> que tenian?
+[02:04:20] [Async Chat Thread - #0/INFO]: [Not Secure] <pepe216> casco botas y encantamientos
+[02:04:24] [Async Chat Thread - #1/INFO]: [Not Secure] <ebner> tgold
+[02:04:28] [Async Chat Thread - #0/INFO]: [Not Secure] <pepe216> y el dragon egg
+[02:04:31] [Async Chat Thread - #1/INFO]: [Not Secure] <pepe216> lol
+[02:04:32] [Async Chat Thread - #0/INFO]: [Not Secure] <ebner> JAJAJA
+[02:06:23] [Async Chat Thread - #2/INFO]: [Not Secure] <pepe216> una elytra tmb
+[02:06:27] [Async Chat Thread - #3/INFO]: [Not Secure] <ebner> GOOOOOOOOOOOOOOOOOOOOD
+[02:06:30] [Async Chat Thread - #2/INFO]: [Not Secure] <pepe216> y una god apple
+[02:06:31] [Async Chat Thread - #3/INFO]: [Not Secure] <ebner> QUE OCOTE
+[02:06:33] [Async Chat Thread - #2/INFO]: [Not Secure] <pepe216> se
+[02:08:25] [Async Chat Thread - #4/INFO]: [Not Secure] <ebner> eu
+[02:08:29] [Async Chat Thread - #5/INFO]: [Not Secure] <ebner> las pociones
+[02:08:36] [Async Chat Thread - #4/INFO]: [Not Secure] <pepe216> de que
+[02:08:36] [Async Chat Thread - #5/INFO]: [Not Secure] <ebner> como era para aumentar el tiempo
+[02:08:39] [Async Chat Thread - #4/INFO]: [Not Secure] <pepe216> u
+[02:08:43] [Async Chat Thread - #5/INFO]: [Not Secure] <pepe216> ni idea
+[02:08:49] [Async Chat Thread - #4/INFO]: [Not Secure] <ebner> redstone?¡
+[02:08:53] [Async Chat Thread - #5/INFO]: [Not Secure] <pepe216> me suena que si
+[02:10:59] [Async Chat Thread - #6/INFO]: [Not Secure] <pepe216> tambien duplique un stack de iron block
+[02:11:07] [Async Chat Thread - #7/INFO]: [Not Secure] <pepe216> pero bueno es chistoso nomas
+[02:11:31] [Async Chat Thread - #6/INFO]: [Not Secure] <pepe216> ya que toy hago dos botas jajajaj
+[02:11:37] [Async Chat Thread - #7/INFO]: [Not Secure] <ebner> y si jajaja
+[02:19:34] [Async Chat Thread - #9/INFO]: [Not Secure] <ebner> lag?
+[02:19:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13029ms or 260 ticks behind
+[02:19:40] [Async Chat Thread - #8/INFO]: [Not Secure] <pepe216> se
+[02:20:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9972ms or 199 ticks behind
+[02:23:04] [Async Chat Thread - #10/INFO]: [Not Secure] <ebner> estoy buscando arena hace una banda
+[02:23:15] [Async Chat Thread - #11/INFO]: [Not Secure] <pepe216> f
+[02:23:17] [Async Chat Thread - #10/INFO]: [Not Secure] <pepe216> ta lejos
+[02:23:22] [Async Chat Thread - #11/INFO]: [Not Secure] <ebner> justo encontre
+[02:27:46] [Async Chat Thread - #12/INFO]: [Not Secure] <ebner> que altura era el nethrite? 15?
+[02:27:49] [Async Chat Thread - #13/INFO]: [Not Secure] <pepe216> ye
+[02:27:58] [Async Chat Thread - #12/INFO]: [Not Secure] <pepe216> tnt?
+[02:28:02] [Async Chat Thread - #13/INFO]: [Not Secure] <pepe216> o camas?
+[02:31:27] [Async Chat Thread - #15/INFO]: [Not Secure] <ebner> en que bioma?
+[02:31:39] [Async Chat Thread - #14/INFO]: [Not Secure] <pepe216> en todos los biomas
+[02:31:51] [Async Chat Thread - #15/INFO]: [Not Secure] <pepe216> mejor si no vas a basalt delta pero por el blackstone
+[02:37:20] [Server thread/INFO]: pepe216 lost connection: Disconnected
+[02:37:20] [Server thread/INFO]: pepe216 left the game
+[02:38:42] [User Authenticator #3/INFO]: UUID of player pepe216 is 834b23fb-6414-374c-bd5a-e1a7c304a6a0
+[02:38:42] [Server thread/INFO]: pepe216 joined the game
+[02:38:42] [Server thread/INFO]: pepe216[/172.19.0.1:33536] logged in with entity id 30880 at ([world_the_end]243.90075517930347, 1.0, -7.300000011920929)
+[02:39:12] [Server thread/INFO]: pepe216 lost connection: Timed out
+[02:39:12] [Server thread/INFO]: pepe216 left the game
+[02:42:38] [User Authenticator #4/INFO]: UUID of player pepe216 is 834b23fb-6414-374c-bd5a-e1a7c304a6a0
+[02:42:38] [Server thread/INFO]: pepe216 joined the game
+[02:42:38] [Server thread/INFO]: pepe216[/172.19.0.1:54974] logged in with entity id 33241 at ([world_the_end]243.90075517930347, 1.0, -7.300000011920929)
+[02:42:56] [Async Chat Thread - #16/INFO]: [Not Secure] <ebner> cuanto de netherite necesitas para la armadura?
+[02:43:02] [Async Chat Thread - #17/INFO]: [Not Secure] <ebner> de ancient debris
+[02:43:06] [Async Chat Thread - #16/INFO]: [Not Secure] <pepe216> necesitas 16
+[02:43:19] [Async Chat Thread - #17/INFO]: [Not Secure] <pepe216> 4 por cada lingote
+[02:48:30] [Async Chat Thread - #18/INFO]: [Not Secure] <ebner> me puedo tp a vos?
+[02:48:35] [Async Chat Thread - #19/INFO]: [Not Secure] <pepe216> se
+[02:48:39] [Server thread/INFO]: ebner issued server command: /tp pepe216
+[02:48:39] [Server thread/INFO]: [ebner: Teleported ebner to pepe216]
+[02:48:49] [Async Chat Thread - #18/INFO]: [Not Secure] <ebner> brush?
+[02:48:51] [Async Chat Thread - #19/INFO]: [Not Secure] <ebner> wtf
+[02:48:55] [Async Chat Thread - #18/INFO]: [Not Secure] <pepe216> se
+[02:49:01] [Async Chat Thread - #19/INFO]: [Not Secure] <ebner> epa
+[02:49:19] [Async Chat Thread - #18/INFO]: [Not Secure] <ebner> tque pingo es eso
+[02:49:35] [Async Chat Thread - #19/INFO]: [Not Secure] <pepe216> ahora tenemos infinitos
+[02:49:39] [Async Chat Thread - #18/INFO]: [Not Secure] <ebner> eso
+[02:49:45] [Async Chat Thread - #19/INFO]: [Not Secure] <ebner> infinitos que
+[02:49:55] [Async Chat Thread - #18/INFO]: [Not Secure] <pepe216> se usa para mejorar a netherite
+[02:50:04] [Async Chat Thread - #19/INFO]: [Not Secure] <ebner> pero porque infinitos?
+[02:50:17] [Async Chat Thread - #18/INFO]: [Not Secure] <pepe216> porque vos tenias dos
+[02:50:28] [Async Chat Thread - #19/INFO]: [Not Secure] <pepe216> y craftie uno mas
+[02:50:29] [Async Chat Thread - #18/INFO]: [Not Secure] <ebner> y?
+[02:50:31] [Async Chat Thread - #19/INFO]: [Not Secure] <pepe216> con diamante
+[02:50:44] [Async Chat Thread - #18/INFO]: [Not Secure] <ebner> como?
+[02:50:54] [Async Chat Thread - #19/INFO]: [Not Secure] <pepe216> mira la shulker
+[02:51:12] [Async Chat Thread - #18/INFO]: [Not Secure] <ebner> pone ahi el crafteo
+[02:51:32] [Async Chat Thread - #19/INFO]: [Not Secure] <ebner> god ya lo vi
+[02:51:38] [Async Chat Thread - #18/INFO]: [Not Secure] <ebner> cierto que podemos verlos
+[02:51:51] [Async Chat Thread - #19/INFO]: [Not Secure] <pepe216> una banda de ancient debri
+[02:51:59] [Async Chat Thread - #18/INFO]: [Not Secure] <pepe216> ya te alcanza
+[02:52:01] [Async Chat Thread - #19/INFO]: [Not Secure] <ebner> soy muy bueno
+[02:52:04] [Async Chat Thread - #18/INFO]: [Not Secure] <pepe216> se
+[02:53:39] [Async Chat Thread - #20/INFO]: [Not Secure] <ebner> que es esto?
+[02:53:55] [Async Chat Thread - #21/INFO]: [Not Secure] <pepe216> lo sacas de tierra especial con el brush
+[02:54:11] [Async Chat Thread - #20/INFO]: [Not Secure] <pepe216> es la update 1.20
+[02:57:19] [Async Chat Thread - #22/INFO]: [Not Secure] <pepe216> ya vengo
+[02:57:29] [Async Chat Thread - #23/INFO]: [Not Secure] <pepe216> god
+[02:57:39] [Async Chat Thread - #22/INFO]: [Not Secure] <pepe216> tiralo en lava
+[02:57:43] [Async Chat Thread - #23/INFO]: [Not Secure] <ebner> rflota
+[02:57:46] [Async Chat Thread - #22/INFO]: [Not Secure] <pepe216> se
+[02:57:50] [Server thread/INFO]: pepe216 lost connection: Disconnected
+[02:57:50] [Server thread/INFO]: pepe216 left the game
+[03:04:32] [User Authenticator #5/INFO]: UUID of player pepe216 is 834b23fb-6414-374c-bd5a-e1a7c304a6a0
+[03:04:32] [Server thread/INFO]: pepe216 joined the game
+[03:04:33] [Server thread/INFO]: pepe216[/172.19.0.1:53704] logged in with entity id 51346 at ([world]1910.2186472869626, 120.0, -1256.499082759831)
+[03:06:01] [Async Chat Thread - #24/INFO]: [Not Secure] <pepe216> nice cock
+[03:10:19] [Async Chat Thread - #26/INFO]: [Not Secure] <pepe216> u
+[03:10:22] [Async Chat Thread - #27/INFO]: [Not Secure] <ebner> tpodes dormir?¡
+[03:10:27] [Async Chat Thread - #26/INFO]: [Not Secure] <pepe216> no
+[03:10:30] [Async Chat Thread - #27/INFO]: [Not Secure] <ebner> oka
+[03:10:31] [Async Chat Thread - #26/INFO]: [Not Secure] <pepe216> toy en la mina
+[03:10:34] [Async Chat Thread - #27/INFO]: [Not Secure] <ebner> tranca
+[03:10:46] [Async Chat Thread - #26/INFO]: [Not Secure] <pepe216> hay haste 2 aca abajo
+[03:10:48] [Async Chat Thread - #27/INFO]: [Not Secure] <ebner> buscando?
+[03:11:05] [Async Chat Thread - #26/INFO]: [Not Secure] <pepe216> diamantes para dupear la huevadita de netherite
+[03:22:33] [Async Chat Thread - #28/INFO]: [Not Secure] <ebner> hola?
+[03:22:37] [Async Chat Thread - #29/INFO]: [Not Secure] <pepe216> se
+[03:22:42] [Async Chat Thread - #28/INFO]: [Not Secure] <pepe216> dime
+[03:22:44] [Async Chat Thread - #29/INFO]: [Not Secure] <ebner> nono
+[03:22:46] [Async Chat Thread - #28/INFO]: [Not Secure] <ebner> alto lag
+[03:22:50] [Async Chat Thread - #29/INFO]: [Not Secure] <pepe216> a
+[03:22:51] [Async Chat Thread - #28/INFO]: [Not Secure] <ebner> che
+[03:22:53] [Async Chat Thread - #29/INFO]: [Not Secure] <ebner> ds?
+[03:22:57] [Async Chat Thread - #28/INFO]: [Not Secure] <pepe216> no taba viendo
+[03:23:07] [Async Chat Thread - #28/INFO]: [Not Secure] <pepe216> dale
+[03:23:11] [Async Chat Thread - #29/INFO]: [Not Secure] <ebner> yendo
+[03:37:02] [Server thread/WARN]: pepe216 moved wrongly!
+[03:44:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5008ms or 100 ticks behind
+[03:53:41] [Server thread/INFO]: ebner issued server command: /tp pepe216
+[03:53:41] [Server thread/INFO]: [ebner: Teleported ebner to pepe216]
+[03:53:59] [Server thread/INFO]: ebner burned to death
+[03:54:04] [Server thread/INFO]: ebner issued server command: /perf
+[03:54:07] [Server thread/INFO]: ebner issued server command: /tp pepe216
+[03:54:08] [Server thread/INFO]: [ebner: Teleported ebner to pepe216]
+[04:00:40] [Server thread/INFO]: ebner issued server command: /tp pepe216
+[04:00:40] [Server thread/INFO]: [ebner: Teleported ebner to pepe216]
+[04:08:21] [Server thread/INFO]: ebner was slain by Piglin Brute
+[04:09:04] [Server thread/INFO]: ebner issued server command: /tp pepe216
+[04:09:04] [Server thread/INFO]: [ebner: Teleported ebner to pepe216]
+[04:10:51] [Server thread/INFO]: ebner issued server command: /tp pepe216
+[04:10:51] [Server thread/INFO]: [ebner: Teleported ebner to pepe216]
+[04:10:51] [Server thread/WARN]: ebner moved too quickly! -0.012673940183475452,-73.0,-254.2869701475787
+[04:14:04] [Server thread/INFO]: pepe216 has made the advancement [Hidden in the Depths]
+[04:17:49] [Server thread/INFO]: ebner issued server command: /tp pepe216
+[04:17:49] [Server thread/INFO]: [ebner: Teleported ebner to pepe216]
+[04:30:48] [Server thread/INFO]: ebner issued server command: /tp pepe216
+[04:30:48] [Server thread/INFO]: [ebner: Teleported ebner to pepe216]
+[04:30:48] [Server thread/WARN]: ebner moved too quickly! 59.148993541643335,-3.0,29.365003170292738
+[04:46:53] [Server thread/INFO]: ebner issued server command: /tp pepe216
+[04:46:53] [Server thread/INFO]: [ebner: Teleported ebner to pepe216]
+[04:46:53] [Server thread/WARN]: ebner moved too quickly! -98.78035736907356,3.0,9.31829482627927
+[04:48:38] [Async Chat Thread - #31/INFO]: [Not Secure] <pepe216> 240 -137
+[04:49:00] [Async Chat Thread - #30/INFO]: [Not Secure] <ebner> 234 -137
+[04:52:40] [Server thread/INFO]: pepe216 has made the advancement [Oh Shiny]
+[04:56:07] [Server thread/INFO]: ebner fell from a high place
+[05:00:08] [Server thread/INFO]: ebner issued server command: /tp pepe216
+[05:00:08] [Server thread/INFO]: [ebner: Teleported ebner to pepe216]
+[05:01:24] [Async Chat Thread - #32/INFO]: [Not Secure] <ebner> 234 -137
+[05:02:33] [Server thread/INFO]: pepe216 issued server command: /tp pepe216 ebner
+[05:02:33] [Server thread/INFO]: [pepe216: Teleported pepe216 to ebner]
+[05:02:36] [Server thread/INFO]: ebner lost connection: Disconnected
+[05:02:36] [Server thread/INFO]: ebner left the game
+[05:02:38] [Server thread/INFO]: pepe216 lost connection: Disconnected
+[05:02:38] [Server thread/INFO]: pepe216 left the game
+[05:02:42] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[05:02:42] [Server thread/INFO]: [Rcon: Stopping the server]
+[05:02:42] [RCON Client /127.0.0.1 #2/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[05:02:42] [Server thread/INFO]: Stopping server
+[05:02:42] [Server thread/INFO]: [TreeFeller] Disabling TreeFeller v1.22.2
+[05:02:42] [Server thread/INFO]: [TreeFeller] TreeFeller has been disabled! (Version 1.22.2) by ThizThizzyDizzy
+[05:02:42] [Server thread/INFO]: Saving players
+[05:02:42] [Server thread/INFO]: Saving worlds
+[05:02:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[05:02:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[05:02:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[05:02:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[05:02:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[05:02:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[05:02:45] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[05:02:45] [Server thread/INFO]: Thread RCON Listener stopped
